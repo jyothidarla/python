@@ -1,0 +1,199 @@
+->int()
+->float()
+->complex()
+->bool()
+->str()
+
+
+Ex1:
+====
+import time 
+X1=int(input('Enter the value of X1:'))
+X2=int(input('Enter the value of X2:'))
+res1=X1+X2 
+print("The sum is:",res1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+Ex2:
+===
+import time 
+X1=float(input('Enter the value of X1:'))
+X2=float(input('Enter the value of X2:'))
+res1=X1+X2 
+print("The sum is:",res1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+X1=complex(input('Enter the value of X1:'))
+X2=complex(input('Enter the value of X2:'))
+res1=X1+X2 
+print("The sum is:",res1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex4:
+===
+import time 
+X1=bool(input('Enter the value of X1:'))
+X2=bool(input('Enter the value of X2:'))
+res1=X1+X2 
+print("The sum is:",res1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex5:
+===
+import time 
+X1=9090123123 
+print("Mobile_Number is:",X1)
+print()
+print("Data type is:",type(X1))
+print()
+res1=str(X1)
+print("Mobile_Number is:",res1)
+print()
+print("Data type is:",type(res1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+eval():
+======
+It is a predefine function in python.The main objective of eval()
+function is to read any data from the keyword and perform the operation
+.While reading the string data type we must that string data type either
+'' or "".
+
+
+Ex1:
+===
+import time 
+X1=eval(input('Enter the value of X1:'))
+print(X1)
+print()
+print(type(X1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+O/P:
+====
+
+C:\Users\Admin\Desktop>Python test1.py
+Enter the value of X1:10
+10
+
+<class 'int'>
+
+End of an application
+
+C:\Users\Admin\Desktop>Python test1.py
+Enter the value of X1:123.45
+123.45
+
+<class 'float'>
+
+End of an application
+
+C:\Users\Admin\Desktop>Python test1.py
+Enter the value of X1:True
+True
+
+<class 'bool'>
+
+End of an application
+
+C:\Users\Admin\Desktop>Python test1.py
+Enter the value of X1:False
+False
+
+<class 'bool'>
+
+End of an application
+
+C:\Users\Admin\Desktop>Python test1.py
+Enter the value of X1:1000+200J
+(1000+200j)
+
+<class 'complex'>
+
+End of an application
+
+C:\Users\Admin\Desktop>Python test1.py
+Enter the value of X1:A
+Traceback (most recent call last):
+  File "test1.py", line 2, in <module>
+    X1=eval(input('Enter the value of X1:'))
+  File "<string>", line 1, in <module>
+NameError: name 'A' is not defined
+
+C:\Users\Admin\Desktop>Python test1.py
+Enter the value of X1:'A'
+A
+
+<class 'str'>
+
+End of an application
+
+C:\Users\Admin\Desktop>Python test1.py
+Enter the value of X1:"ABCD"
+ABCD
+
+<class 'str'>
+
+End of an application
+
+C:\Users\Admin\Desktop>Python test1.py
+Enter the value of X1:[]
+[]
+
+<class 'list'>
+
+End of an application
+
+C:\Users\Admin\Desktop>
+
+
+Ex2:
+===
+import time 
+X1=eval(input('Enter the value of X1:'))
+X2=eval(input('Enter the value of X2:'))
+res1=X1+X2 
+print("The result_set is:",res1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex3:
+===
+import time 
+X1=eval(input('Enter the value of X1:'))
+print(X1)
+print()
+print(type(X1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+
+
+

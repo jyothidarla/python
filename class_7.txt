@@ -1,0 +1,224 @@
+Slice operator with Negative direction:
+======================================
+Python supports slice operator with negative direction which starts
+from -1 to end+1.While working with negative direction our step value
+must be negative number otherwise most of the time empty is the output.
+
+str1[-1:-7:-1] ---->-7+1=-6
+
+
+Ex1:
+===
+import time 
+str1="Core Python"
+print(str1)
+print()
+print(type(str1))
+print()
+print("=====Slice operator using - direction====")
+print(str1[-1:-7:-1])
+print("========================")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+====
+import time 
+str1="Core Python"
+print(str1)
+print()
+print(type(str1))
+print()
+print("=====Slice operator using - direction====")
+print(str1[-1:-7:-2])
+print("========================")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+str1="Core Python"
+print(str1)
+print()
+print(type(str1))
+print()
+print("=====Slice operator using - direction====")
+print(str1[-1:-8:-4])
+print("========================")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex4:
+===
+import time 
+str1="Core Python"
+print(str1)
+print()
+print(type(str1))
+print()
+print("=====Slice operator using - direction====")
+print(str1[-1:-5:1])
+print("========================")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex5:
+===
+import time 
+str1="Core Python"
+print(str1)
+print()
+print(type(str1))
+print()
+print("=====Slice operator using - direction====")
+print(str1[-1:-5:0])
+print("========================")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex6:
+===
+import time 
+str1="Core Python"
+print(str1)
+print()
+print(type(str1))
+print()
+print("=====Slice operator using - direction====")
+print(str1[-1:-5:])
+print("========================")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex7:
+===
+import time 
+str1="Core Python"
+print(str1)
+print()
+print(type(str1))
+print()
+print("=====Slice operator using - direction====")
+print(str1[-1:])
+print("========================")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex8:
+===
+import time 
+str1="Core Python"
+print(str1)
+print()
+print(type(str1))
+print()
+print("=====Slice operator using - direction====")
+print(str1[-2:])
+print("========================")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex9:
+===
+import time 
+str1="Core Python"
+print(str1)
+print()
+print(type(str1))
+print()
+print("=====Slice operator using - direction====")
+print(str1[-5:])
+print("========================")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex10:
+====
+import time 
+str1="Core Python"
+print(str1)
+print()
+print(type(str1))
+print()
+print("=====Slice operator using - direction====")
+print(str1[:-3])
+print("========================")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex11:
+===
+import time 
+str1="Core Python"
+print(str1)
+print()
+print(type(str1))
+print()
+print("=====Slice operator using - direction====")
+print(str1[::-1])
+print("========================")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex12:
+=====
+import time 
+str1="Core Python"
+print(str1)
+print()
+print(type(str1))
+print()
+print("=====Slice operator using - direction====")
+print(str1[::-2])
+print("========================")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex13:
+====
+import time 
+str1="Core Python"
+print(str1)
+print()
+print(type(str1))
+print()
+print("=====Slice operator using - direction====")
+print(str1[::-7])
+print("========================")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+
+
+
+
+
+

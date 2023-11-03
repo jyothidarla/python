@@ -1,0 +1,329 @@
+Data types in python:
+====================
+
+What are data types used for?
+============================
+Python supports data types.Data types are used to store the different
+values at memory allocation vai variable(an identifier).Following are the
+data types in python
+
+
+->Integer data type
+->Floating data type
+->boolean data type
+->string data type
+->Complex data type
+->List data type 
+->Tuple data type
+->Set data type
+->Dict data type
+->Bytes data type
+->Bytearray data type
+->frozenset data type
+->Range data type
+->None data type
+
+
+->Integer data type:
+====================
+Python supports integer data type.It can be represent as number from 0-9
+.It may be + number or - number with any size.
+
+
+Ex1:
+===
+import time 
+X1=12000 
+print("The value of X1 is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+X2=-17000 
+print("The value of X2 is:",X2)
+print()
+print("The data type is:",type(X2))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Floating data type:
+===================
+Python supports floating data type.It can be represent as floating point number or
+decimal point number.It may be either + floaing point number or - floating point number.In 
+python 1.3e is also consider as floating data type.
+
+
+Note:
+=====
+e expo value or ten to the power of two
+
+
+Ex1:
+===
+import time 
+Z1=145.67 
+print("The value of Z1 is:",Z1)
+print()
+print()
+print("The data type is:",type(Z1))
+print()
+Z2=-156.78988 
+print("The value of Z2 is:",Z2)
+print()
+print("The data type is:",type(Z2))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+X1=1.3e 
+print("The value of X1 is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+X1=1.3*10*10
+print("The value of X1 is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+time.sleep(2)
+print("End of an application")
+
+Ex4:
+===
+import time 
+X1=1.3e1
+print("The value of X1 is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex5:
+===
+import time 
+X1=1.3e0
+print("The value of X1 is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex6:
+===
+import time 
+X1=1.3e2
+print("The value of X1 is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex5:
+===
+import time 
+X1=1.3e3
+print("The value of X1 is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex6:
+===
+import time 
+X1=1.3e5
+print("The value of X1 is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+->Boolean data type:
+====================
+Python supports boolean data type.The main objective of boolean data type
+is return either True or False after checking the conditions
+
+
+Ex1:
+===
+import time 
+X1=15000 
+X2=18000 
+print("=====Using Boolean data type===")
+print(X1)
+print()
+print(X2)
+print()
+res1=X1==X2
+res2=X1!=X2 
+print("The result_set is:",res1)
+print()
+print("The data type is:",type(res1))
+print()
+print("The result_set is:",res2)
+print()
+print("The data type is:",type(res2))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+->String data type:
+====================
+
+What is String?
+===============
+->String can be represent as collection of characters or sequence of characters enclosed
+with '' or "" or '''''' or """""".
+
+->While working with string data type space is also consider as one
+character.
+
+->Python supports positive index which starts from 0 to end-1.It is also
+known as forward directions.
+
+->Python also supports negative index which starts from -1 to end+1.It
+is also known as backward direction.
+
+->'''''' or """""" is also used for multiline content.
+
+
+Ex1:
+===
+import time 
+str1='Core Python'
+str2="Core Python"
+str3='''Core Python'''
+str4="""Core Python"""
+str5='1000'
+str6="123.45"
+str7="True"
+print(str1,str2,str3,str4,str5,str6,str7)
+print()
+print(type(str1),type(str2),type(str3),type(str4),type(str5),type(str6),type(str7))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+I will be a 'python developer' after this Python training
+
+
+Ex1:
+===
+import time 
+str1="I will be a 'python developer' after this Python training"
+print()
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+str1='''I will be a 'python developer' after this Python training'''
+print()
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex3:
+===
+import time 
+str1="""I will be a 'python developer' after this Python training"""
+print()
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex4:
+===
+import time 
+str1='I will be a 'python developer' after this Python training'
+print()
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+I will be a 'python developer' after this "Python" training
+
+
+Ex1:
+===
+import time 
+str1='''I will be a 'python developer' after this "Python" training'''
+print()
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print("End of an applicaiton")
+
+
+Ex2:
+===
+import time 
+str1="""I will be a 'python developer' after this "Python" training"""
+print()
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print("End of an applicaiton")
+
+
+Ex3:
+====
+import time 
+str1="I will be a 'python developer' after this "Python" training"
+print()
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print("End of an applicaiton")
+
+
+
+

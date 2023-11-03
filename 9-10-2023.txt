@@ -1,0 +1,386 @@
+Dict data type:
+==============
+Python supports Dict data type.If you want to repesent one or 
+more than one object as key and value pair then we can go with 
+dict data type.In python dict data type can be represent using {}
+and dict()
+
+Ex:
+D1={key:value}
+
+Ex1:
+===
+import time 
+D1={}
+print(D1)
+print()
+print(type(D1))
+print()
+D2=dict()
+print(D2)
+print()
+print(type(D2))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+D1={"Pid":1001,"Pname":"Monile_1","Price":27000.0}
+print(D1)
+print()
+print(type(D1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex3:
+===
+import time 
+D1={'Pid':1001,'Pname':"Monile_1",'Price':27000.0}
+print(D1)
+print()
+print(type(D1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex4:
+===
+import time 
+D1={'Pid':1001,'Pname':"Monile_1",Price:27000.0}
+print(D1)
+print()
+print(type(D1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex5:
+===
+import time 
+D1={0:1001,1:1002,3:1003}
+print(D1)
+print()
+print(type(D1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex6:
+===
+import time 
+D1={"Pid":1001,"Pname":"Mobile_1","Price":23000,"Pid":1002}
+print(D1)
+print()
+print(type(D1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex7:
+===
+import time 
+D1={"Pid":1001,"Pname":"Mobile_1","Price":23000}
+print(D1)
+print()
+print(type(D1))
+print()
+print("====Updating the Dict data type====")
+D1['Company']="Samsung"
+D1['M_date']="12/7/2023"
+D1['Exp_date']='12/7/2024'
+print(D1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex8:
+===
+import time 
+D1={"Pid":1001,"Pname":"Mobile_1","Price":23000,"Company":"Samsung"}
+print(D1)
+print()
+print(type(D1))
+print()
+print("====Product Information====")
+print("Pid is:",D1['Pid'])
+print("Pname is:",D1['Pname'])
+print("Price is:",D1['Price'])
+print('Company is:',D1['Company'])
+print("========================")
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex9:
+===
+import time 
+D1=dict(Pid=1001,Pname="Mobile_1",Price=27000,Company="Samsung")
+print(D1)
+print()
+print(type(D1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Predefine functions for dict data type in python
+================================================
+
+->keys()
+->values()
+->items()
+->copy()
+->clear()
+->pop()
+->popitem()
+->get()
+->update()
+
+->keys():
+========
+
+Ex1:
+===
+import time 
+D1=dict(Pid=1001,Pname="Mobile_1",Price=27000,Company="Samsung")
+print(D1)
+print()
+print(type(D1))
+print()
+print("====Keys====")
+for x1 in D1.keys():
+    print(x1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+D1=dict(Pid=1001,Pname="Mobile_1",Price=27000,Company="Samsung")
+print(D1)
+print()
+print(type(D1))
+print()
+print("====Keys====")
+print(D1.keys())
+print()
+time.sleep(2)
+print('End of an application')
+
+
+values():
+========
+
+Ex1:
+===
+import time 
+D1=dict(Pid=1001,Pname="Mobile_1",Price=27000,Company="Samsung")
+print(D1)
+print()
+print(type(D1))
+print()
+print("====Values====")
+for x1 in D1.values():
+    print(x1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+items():
+=======
+import time 
+D1=dict(Pid=1001,Pname="Mobile_1",Price=27000,Company="Samsung")
+print(D1)
+print()
+print(type(D1))
+print()
+print("====Keys & Values====")
+for x1,x2 in D1.items():
+    print(x1,"---",x2)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+D1=dict(Pid=1001,Pname="Mobile_1",Price=27000,Company="Samsung")
+print(D1)
+print()
+print(type(D1))
+print()
+print("====Keys & Values====")
+for x1 in D1.items():
+    print(x1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+copy():
+=======
+Ex1:
+===
+import time 
+D1=dict(Pid=1001,Pname="Mobile_1",Price=27000,Company="Samsung")
+print("Before operations is:",D1)
+print()
+D2=D1.copy()
+print("After operations:",D2)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+clear():
+=======
+Ex1:
+===
+import time 
+D1=dict(Pid=1001,Pname="Mobile_1",Price=27000,Company="Samsung")
+print("Before operations is:",D1)
+print()
+D2=D1.clear()
+print("After operations:",D2)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+D1=dict(Pid=1001,Pname="Mobile_1",Price=27000,Company="Samsung")
+print("Before operations is:",D1)
+print()
+D1.clear()
+print("After operations:",D1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+->pop():
+=======
+It used to delete the values as per the application reqn.
+
+
+Ex1:
+===
+import time 
+D1=dict(Pid=1001,Pname="Mobile_1",Price=27000,Company="Samsung")
+print("Before operations is:",D1)
+print()
+res1=D1.pop("Price")
+print("Delted object is:",res1)
+print()
+print("After operations:",D1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+->popitem():
+===========
+It is a predefine function in python.The main objective of popitem() is to 
+delete the last key and value pair.
+
+
+Ex1:
+===
+import time 
+D1=dict(Pid=1001,Pname="Mobile_1",Price=27000,Company="Samsung")
+print("Before operations is:",D1)
+print()
+res1=D1.popitem()
+print("Delted object is:",res1)
+print()
+print("After operations:",D1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+->get():
+=======
+It is used to get values from the dict data type.
+
+
+Ex1:
+===
+import time 
+D1=dict(Pid=1001,Pname="Mobile_1",Price=27000,Company="Samsung")
+print(D1)
+print()
+print(type(D1))
+print()
+print("====ACCESSING THE VALUES=====")
+print("Product_Id is:",D1['Pid'])
+print()
+res1=D1.get("Pid")
+print("Product_Id is:",res1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+update():
+=======
+
+Ex1:
+===
+import time  
+D1=dict()
+print(D1)
+print()
+D1.update({"Pid":1001})
+print(D1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time  
+D1=dict()
+print(D1)
+print()
+D1.update({"Pid":1001,"Pname":"Mobile_1","Price":29000})
+print(D1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Enter the value of X1:170
+Enter the value of X2:190
+The result is:2
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,190 @@
+Constrol statements:
+===================
+Python supports constrol statements.The main objective  of control
+statements is control applications as per the application reqn.Following
+are the control statements in python.Following are the control statements
+in python
+
+->Decision making statements
+->Iterative statements
+->Transfer statements
+
+
+->Decision making statements:
+=============================
+Following are the decision making statements in pyton.Decision making is also
+known as conditional statements.Following are the decision making statements in 
+python
+
+->if statement
+->Nested if statement
+->if-else statement
+->if-elif-else statement
+
+->if statement:
+===============
+if is a decision making or conditional statements in python.If 'if' condition is
+true or if_block is true then if block will be executed.
+
+if(cond):
+   ----
+or
+if cond:
+   ----
+
+
+Ex1:
+===
+import time 
+Language=input("Enter the language:")
+if(Language=="Python"):
+    print(Language,": Meant for to develop general purpose applications")
+    print()
+    print("----General purpose applicaitons------")
+    print("1.Desktop/Stand_alone applicaiton")
+    print("2.Web based applications")
+    print("3.AI applications")
+    print("4.ML applications")
+    print("5.IOT applications")
+    print("6.ERP applications")
+    print("7.AWS based applications")
+    print("8.Azure based applications")
+    print("9.GCP based applicaitons")
+    print("10.Mobile application/Kivy_Framework")
+    print("11.Single page applications/Angular/React")
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+Language=input("Enter the language:")
+if Language=="Python":
+    print(Language,": Meant for to develop general purpose applications")
+    print()
+    print("----General purpose applicaitons------")
+    print("1.Desktop/Stand_alone applicaiton")
+    print("2.Web based applications")
+    print("3.AI applications")
+    print("4.ML applications")
+    print("5.IOT applications")
+    print("6.ERP applications")
+    print("7.AWS based applications")
+    print("8.Azure based applications")
+    print("9.GCP based applicaitons")
+    print("10.Mobile application/Kivy_Framework")
+    print("11.Single page applications/Angular/React")
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex3:
+===
+import time 
+Language=input("Enter the language:")
+if Language=="Python"
+    print(Language,": Meant for to develop general purpose applications")
+    print()
+    print("----General purpose applicaitons------")
+    print("1.Desktop/Stand_alone applicaiton")
+    print("2.Web based applications")
+    print("3.AI applications")
+    print("4.ML applications")
+    print("5.IOT applications")
+    print("6.ERP applications")
+    print("7.AWS based applications")
+    print("8.Azure based applications")
+    print("9.GCP based applicaitons")
+    print("10.Mobile application/Kivy_Framework")
+    print("11.Single page applications/Angular/React")
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex4:
+====
+import time 
+Mobile_Number=input("Enter the Mobile_Number:")
+if(Mobile_Number=="+91-9090123123" or Mobile_Number=="9090123123" or Mobile_Number=="91-9090123123" or Mobile_Number=="919090123123"):
+    print(Mobile_Number,":It is valid indian Mobile number")
+print()
+time.sleep(2)
+print('End of application')
+
+
+
+Nested if statements:
+=====================
+Python supports nested if statements.It is also known a s Inner if statement.Nested
+if statement or Nesested if statement can be represent as defining or decalring a if
+statement inside another if statements.
+
+
+if(cond): ---->Outer if statement
+    ---
+    if(cond): ---->Inner if statement
+      ----
+
+or 
+if  cond:
+     ----
+     if cond:
+         ---
+
+
+Ex1:
+===
+import time 
+First_Name=input('Enter the First_Name:')
+Last_Name=input('Enter the Last_Name:')
+if(First_Name=="Rahul"):
+    print("My first_name is:",First_Name)
+    if(Last_Name=="Verma"):
+        print("My last_name is:",Last_Name)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+First_Name=input('Enter the First_Name:')
+Last_Name=input('Enter the Last_Name:')
+DOB=input("Entetr the Date of Birth:")
+if(First_Name=="Rahul"):
+    print("My first_name is:",First_Name)
+    if(Last_Name=="Verma"):
+        print("My last_name is:",Last_Name)
+        if(DOB=="17/7/1997"):
+            print('My Date of Birth is:',DOB)
+            print()
+            print("Congralations your visa approved for new york ....")
+print()
+time.sleep(2)
+print('End of an application')
+
+
+
+
+
+
+    
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+

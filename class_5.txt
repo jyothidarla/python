@@ -1,0 +1,295 @@
+->Boolean data type:
+====================
+Python supports boolean data type.The main objectve of boolean data type is to 
+return boolean values either True or False after checking the condition.
+
+
+Ex1:
+===
+import time 
+X1=1500 
+X2=1700 
+print("=====Using Boolean data type=====")
+print(X1)
+print()
+print(X2)
+print()
+res1=X1==X2
+res2=X1!=X2 
+print("The result_set is:",res1)
+print()
+print("The data type is:",type(res1))
+print()
+print("The result_set is:",res2)
+print()
+print("The data type is:",type(res2))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+String data type:
+================
+
+What is String?
+==============
+
+->Srting can be represent as sequence of characters or group of 
+characters enclosed with '' or "" or '''''' or """""".
+
+->While working with string data type space is also consider one character.
+
+->Python supports positive index which starts from 0 to end-1.It is also known
+as forward direction
+
+->Python also supports negative index which starts from -1 to end+1.It is also 
+known as backward direction
+
+->"""""" or '''''' is also used for multi content.
+
+
+Ex1:
+===
+import time 
+str1='Core Python'
+str2="Core Python"
+str3='''Angular with Django'''
+str4="""React with FastAPI"""
+str5='10'
+str6="True"
+str7='''123.45'''
+print(str1,str2,str3,str4,str5,str6,str7)
+print()
+print(type(str1),type(str2),type(str3),type(str4),type(str5))
+print()
+time.sleep(2)
+print('End of an application')
+
+I will be a 'Python developer' after end this Python Training
+
+
+Ex1:
+===
+import time 
+str1="I will be a 'Python developer' after end this Python Training"
+print()
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+str1='''I will be a 'Python developer' after end this Python Training'''
+print()
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+str1="""I will be a 'Python developer' after end this Python Training"""
+print()
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex4:
+===
+import time 
+str1='I will be a 'Python developer' after end this Python Training'
+print()
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+I will be a 'Python developer' after end this "Python" Training
+
+Ex1:
+===
+import time 
+str1='''I will be a 'Python developer' after end this "Python" Training'''
+print()
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+str1="""I will be a 'Python developer' after end this "Python" Training"""
+print()
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+str1="I will be a 'Python developer' after end this 'Python' Training"
+print()
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex4:
+===
+import time 
+str1='I will be a "Python developer" after end this "Python" Training'
+print()
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Good morning Dear Students
+Welcome to IT domain for Software developer
+Thank you
+From IHUB
+
+
+Ex1:
+===
+import time 
+str1='''Good morning Dear Students
+Welcome to IT domain for Software developer
+Thank you
+From IHUB'''
+print()
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+====
+import time 
+str1="""Good morning Dear Students
+Welcome to IT domain for Software developer
+Thank you
+From IHUB"""
+print()
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex3:
+===
+import time 
+str1='Good morning Dear Students
+Welcome to IT domain for Software developer
+Thank you
+From IHUB'
+print()
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex4:
+====
+import time 
+str1="Good morning Dear Students
+Welcome to IT domain for Software developer
+Thank you
+From IHUB"
+print()
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex5:
+====
+import time 
+str1="Good morning Dear Students
+Welcome to IT domain for Software developer
+Thank you
+From IHUB"
+print()
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex6:
+===
+import time 
+str1="Core Python"
+print(str1)
+print()
+print(type(str1))
+print()
+print('=====Using + direction====')
+print(str1[5])
+print(str1[6])
+print(str1[7])
+print(str1[8])
+print(str1[9])
+print(str1[10])
+print()
+print("=====Using - direction=====")
+print(str1[-6])
+print(str1[-5])
+print(str1[-4])
+print(str1[-3])
+print(str1[-2])
+print(str1[-1])
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Slice operator:
+==============
+
+
+

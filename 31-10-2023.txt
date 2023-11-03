@@ -1,0 +1,307 @@
+L1=[[1,2,3],[4,5,6],[7,8,9]]
+
+[1,2,3]
+1
+2
+3
+[4,5,6]
+4
+5
+6
+[7,8,9]
+7
+8
+9
+
+
+Ex1:
+===
+import time 
+L1=[[1,2,3],[4,5,6],[7,8,9]]
+print(L1)
+print()
+for x1 in L1:
+    print(x1)
+    for y1 in x1:
+        print(y1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+L1=[[1,2,3],[4,5,6],[7,8,9]]
+print(L1)
+print()
+for x1 in L1:
+    for y1 in x1:
+        print(y1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+L1=[[1,2,3],[4,5,6],[7,8,9]]
+print(L1)
+print()
+for x1 in L1:
+    for y1 in x1:
+        print(y1,end=" ")
+print()
+print()
+time.sleep(2)
+print("End of an application")
+
+
+1  2  3
+4  5  6
+7  8  9
+
+
+Ex4:
+===
+import time 
+for x1 in range(1,11):
+    for y1 in range(1,11):
+        print(x1*y1,end=" ")
+    print()
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex5:
+====
+import time 
+for x1 in range(1,11):
+    for y1 in range(1,11):
+        print(x1,"X",y1,"=",x1*y1)
+    print()
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex6(Problem_1):
+===============
+import time 
+for x1 in range(1,11):
+    for y1 in range(1,11):
+        print(x1,"X",y1,"=",x1*y1,end=" ")
+    print()
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex7:
+===
+import time 
+import numpy as np 
+S1=np.array([[[[[[1,2,3],[4,5,6],[7,8,9]]]]]])
+print(S1)
+print()
+for x1 in S1:
+    for x2 in x1:
+        for x3 in x2:
+            for x4 in x3:
+                for x5 in x4:
+                    for x6 in x5:
+                        print(x6,end=" ")
+                    print()
+print()
+time.sleep(2)
+print('End of an applicaiton')
+
+
+Ex8:
+===
+import time 
+n=int(input('Enter the number of rows:'))
+for x1 in range(n):
+    Pid=int(input("Enter the Pid:"))
+    Pname=input("Enter the Pname:")
+    Price=float(input("Enter the Price:"))
+    Company=input("Enter the Company:")
+print()
+print("====Product Information====")
+print("Pid is:",Pid)
+print("Pname is:",Pname)
+print("Price is:",Price)
+print("Company is:",Company)
+print()
+time.sleep(2)
+print("End of an application")
+
+==============================
+Pid   Pname    Price   Company
+===============================
+101    A       10       A1
+102    B       20       B1
+103    C       30       C1
+104    D       40       D1
+================================
+
+
+Answers:
+=======
+import time 
+Pid=[] 
+Pname=[] 
+Price=[] 
+Company=[] 
+n=int(input("Enter the numnber of rows:"))
+for x1 in range(n):
+    a=int(input("Enter the Pid:"))
+    Pid.append(a)
+    b=input("Enter the Pname:")
+    Pname.append(b)
+    c=float(input('Enter the Price:'))
+    Price.append(c)
+    d=input("Enter the Company:")
+    Company.append(d)
+print()
+print("=============================")
+print("Pid","Pname","Price","Company")
+print("=============================")
+for x1,x2,x3,x4 in zip(Pid,Pname,Price,Company):
+    print(x1,x2,x3,x4)
+print('================================')
+print()
+time.sleep(2)
+print('End of an application')
+
+
+
+zip():
+======
+It is a predefine function in python.It return objects.The main 
+objective of zip() function as follows
+
+->It is used to fetch more than two values 
+->It is used to one data structure data type to another data structure type.
+
+
+Ex1:
+===
+import time 
+L1=[1,2,3,4,5,6]
+print(L1)
+print()
+print(type(L1))
+print()
+T1=tuple(L1)
+print(T1)
+print()
+print(type(T1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+L1=[1,2,3,4,5,6]
+L2=[1,2,3,4,5,6]
+print(L1)
+print()
+print(type(L1))
+print()
+T1=tuple(zip(L1,L2))
+print(T1)
+print()
+print(type(T1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+L1=["Eid","Ename","Esal"]
+L2=[1001,"Rahul",27000]
+
+{'Eid':1001,'Ename':'Rahul','Esal':27000}
+
+
+Ex2:
+===
+import time 
+L1=["Eid","Ename","Esal"]
+L2=[1001,"Rahul",27000]
+print(L1)
+print()
+print(L2)
+print()
+T1=dict(zip(L1,L2))
+print(T1)
+print()
+print(type(T1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex3:(Problem not solved)
+==========================
+
+Ex1:
+===
+import time 
+L1=["Eid","Ename","Esal"]
+L2=[1001,"Rahul",27000]
+L3=["Eid","Ename","Esal"]
+L4=[1002,"Ajay",29000]
+print(L1)
+print()
+print(L2)
+print()
+T1=dict(zip(L1,L2))
+print(T1)
+print()
+T2=dict(zip(L3,L4))
+print(T2)
+print()
+T1.update(T2)
+print(T1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+====
+import time 
+L1=["Eid","Ename","Esal"]
+L2=[1001,"Rahul",27000]
+L3=["Eid","Ename","Esal"]
+L4=[1002,"Ajay",29000]
+print(L1,L2,L3,L4)
+print()
+S1=set(zip(L1,L2,L3,L4))
+print(S1)
+print()
+print(type(S1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

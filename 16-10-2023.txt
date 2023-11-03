@@ -1,0 +1,223 @@
+Bitwise & and | and ^
+======================
+
+print(21&7)
+
+21 ----> 1  0  1  0  1
+7 -----> 0  0  1  1  1  &
+=============================
+        0  0   1  0  1 ---->5
+==============================
+
+Ex1:
+===
+import time 
+print(21&7)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+print((5^4)&(9|5))
+print((15^12)&(21|23))
+
+
+Bitwise complement operator(~):
+===============================
+
+
+Ex1:
+===
+import time 
+X1=100 
+X2=~X1
+print(X2)
+print()
+X3=-101 
+X4=~X3 
+print(X4)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+X1=132 
+X2=~X1
+print(X2)
+print()
+X3=-131
+X4=~X3 
+print(X4)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Bitwise left_shift operator(<<):
+===============================
+
+X1=20 
+X2=X1<<2
+
+20   -----> 0  0  1 0 1 0  0  
+                  1  0  1  0  0  0 0
+
+
+Ex1:
+===
+import time 
+X1=20 
+X2=X1<<2 
+print("The result_set is:",X2)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Bitwise Right_shift operator(>>):
+===============================
+X1=20
+
+X2=X1>>2 
+
+20 ----> 0  0  1 0 1 0  0  
+            0   0   0  0  1  0  1
+
+
+Ex1:
+===
+import time 
+X1=20 
+X2=X1>>2 
+print("The result_set is:",X2)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+Membership operators:
+=====================
+Python supports membership operators.The main objective of membership operators
+is search a character or group of characters and return the boolean values.Following
+are the membership operators.
+
+->in 
+->not in
+
+Ex1:
+===
+import time 
+str1=input('Enter the string object')  # I will be python developer 
+print(str1)
+print()
+print(type(str1))
+print()
+print('-----Using Membership operators------')
+print('I' in str1)
+print()
+print(' ' in str1)
+print()
+print('will' not in str1)
+print()
+print('JavaScript' in str1)
+print()
+print('Django' not in str1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+Years=[2001,2002,2003,2004,2005,2006]
+print(Years)
+print()
+print()
+print("----Using MO-----")
+print(2001 in Years)
+print()
+print(2012 not in Years)
+print()
+print(2013 in Years)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Input & OutPut Statements:
+==========================
+Python supports Input & Output statements.The main objective of 
+Input & Output statements is to generate the various application output
+or Output
+
+->input() --->To read the input data
+->print() --->To display the output
+
+
+Ex1:
+===
+import time 
+Pid=int(input("Enter the Pid:"))
+Pname=input("Enter th Pname:")
+Price=float(input("Enter the Price:"))
+Company=input("Enter the Company:")
+M_date=input("Enter the M_date:")
+Exp_date=input('Enter rhe Exp_date:')
+print()
+print("----Product Information-----")
+print(Pid,Pname,Price,Company,M_date,Exp_date)
+print()
+time.sleep(2)
+print('End of an application')
+
+sep:
+===
+It is an attribute which can be return inside the print() function.The main 
+objective of sep attribute is display the date format,time format,amount format
+
+
+Ex1:
+===
+import time 
+x,y,z=16,10,2023 
+print("====Date====")
+print(x,y,z,sep="/")
+print()
+print('=====Another_Date=====')
+print(x,y,z,sep="-")
+print()
+print('====Time====')
+print(x,y,z,sep=":")
+print()
+print("====Digital_Time====")
+print(x,y,z,sep="::")
+print()
+print("====Amount====")
+print(x,y,z,sep=",")
+print()
+time.sleep(2)
+print('End of an application')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                       
+

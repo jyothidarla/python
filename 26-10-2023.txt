@@ -1,0 +1,177 @@
+Removing duplicate objects from keyboard
+=========================================
+
+Form_1:
+=====
+import time 
+L1=eval(input('Enter the List data type with Duplicates values'))
+res=[]
+for x1 in L1:
+    if x1 not in res:
+        res.append(x1)
+print()
+print("Before duplicates objects:",L1)
+print()
+print("After duplicate objects:",res)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Form_2:
+=======
+import time 
+L1=eval(input('Enter the List data type with Duplicates values'))
+res=[]
+for x1 in range(len(L1)):
+    if L1[x1] not in res:
+        res.append(L1[x1])
+print()
+print("Before duplicate objects:",L1)
+print()
+print("After removing duplicate objects:",res)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Form_3:
+=======
+import time 
+res=[] 
+for x1 in [1,2,3,4,56,7,8,1,2]:
+    if(x1 not in res):
+        res.append(x1)
+print("After removing duplicate objects:",res)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Finding the vowels in given string is:
+=====================================
+
+Form_1:
+=======
+import time 
+str1=input("Enter any string objects:")
+A=0
+for x1 in str1:
+    if(x1 in ("aeiouAEIOU")):
+        A+=1 
+        print("Vowels are in given string object:",x1)
+        print()
+print("Number of vowels are:",A)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Form_2:
+=====
+import time 
+str1=input("Enter any string objects:")
+A=0
+for y1 in range(len(str1)):
+    if(str1[y1] in ("AEIOUaeiou")):
+        A+=1 
+        print("Vowels are in given string object is:",str1[y1])
+        print()
+print()
+print("Number of vowels are:",A)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Form_3:
+=======
+import time 
+B=0 
+for z1 in "Python Developer":
+    if(z1 in ("AEIOUaeiou")):
+        B+=1 
+        print("Vowels are:",z1)
+print()
+print("Number of vowels are:",B)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Finding consoents and count that consoents:
+===========================================
+
+Ex1:
+====
+import time 
+str1=input("Enter any string objects:")
+A=0
+for x1 in str1:
+    if(x1 not in ("aeiouAEIOU")):
+        A+=1 
+        print("Consonts are in given string object:",x1)
+        print()
+print("Number of consonents are:",A)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Reverse of srting:
+==================
+Ex1:
+===
+import time 
+str1=input("Enter any string objects:")
+str2=""
+for x1 in str1:
+    str2=x1+str2 
+print("String object is:",str1)
+print()
+print("Reverse of string is:",str2)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+====
+import time 
+str1=input("Enter any string objects:")
+str2=""
+for x1 in str1:
+    str2=x1+str2 
+if(str1==str2):
+    print(str1,str2,"=> GIVEN STRING OBJECTS IS PALINDROM")
+else:
+    print(str1,str2,": => GIVEN STRING OBJECT IS NOT PALINDROM")
+print()
+time.sleep(2)
+print('End of an application')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

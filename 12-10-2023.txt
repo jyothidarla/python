@@ -1,0 +1,395 @@
+Logical not operator:
+====================
+True --- 1
+False --- 0
+
+1 ---- 0
+0 ---- 1
+
+Ex1:
+===
+import time 
+X1=True
+print('The value of X1 is:',X1)
+print()
+print('The data type is:',type(X1))
+print()
+X2=not X1 
+print("The value of X2 is:",X2)
+print()
+print("The data type is:",type(X2))
+print()
+time.sleep(2)
+print('End of an appllication')
+
+
+Equality operators:
+==================
+Python supports Equality operators.The main objective of EO meant for 
+content comparision and return boolean values after checking the condition
+.Following are the EO in python
+
+->==
+->!=
+
+Ex1:
+===
+import time 
+L1=eval(input("Enter the List_data:"))
+L2=eval(input("Enter the List_data again:"))
+print("=====Using EO =====")
+print(L1)
+print()
+print(L2)
+res1=L1==L2 
+res2=L1!=L2 
+print("The result_set is:",res1)
+print()
+print("Data type is:",type(res1))
+print()
+print("The result_set is:",res2)
+print()
+print("Data type is:",type(res2))
+print()
+time.sleep(2)
+print("End of an application")
+
+OUTPUT:
+======
+Enter the List_data:[1,2,3,4,5]
+Enter the List_data again:[1,2,3,4,5]
+=====Using EO =====
+[1, 2, 3, 4, 5]
+
+[1, 2, 3, 4, 5]
+The result_set is: True
+
+Data type is: <class 'bool'>
+
+The result_set is: False
+
+Data type is: <class 'bool'>
+
+End of an application
+
+
+Comparision operator:
+===================
+Python supports comparision operators.The main objective of CO is compare
+the operand with data as per the application reqn return boolean after checking 
+the condition.Following are comparision operators
+
+->  >
+-> >= 
+-> <
+-> <=
+
+
+Ex1:
+===
+import time 
+X1=120 
+X2=150 
+print("=====Using CO===")
+print(X1)
+print()
+print(X2)
+print()
+res1=X1>X2 
+res2=X1>=X2 
+res3=X1<X2 
+res4=X1<=X2 
+print(res1,res2,res3,res4)
+print()
+print(type(res1),type(res2),type(res3),type(res4))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+X1=input("Enter the value of X1:")
+X2=input("Enter the value of X2:")
+print("=====Using CO===")
+print(X1)
+print()
+print(X2)
+print()
+res1=X1>X2 
+res2=X1>=X2 
+res3=X1<X2 
+res4=X1<=X2 
+print(res1,res2,res3,res4)
+print()
+print(type(res1),type(res2),type(res3),type(res4))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex3:
+===
+import time 
+X1=eval(input("Enter the value of X1:"))
+X2=eval(input("Enter the value of X2:"))
+print("=====Using CO===")
+print(X1)
+print()
+print(X2)
+print()
+res1=X1>X2 
+res2=X1>=X2 
+res3=X1<X2 
+res4=X1<=X2 
+print(res1,res2,res3,res4)
+print()
+print(type(res1),type(res2),type(res3),type(res4))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Specail type operators:
+======================
+Python supports STO.Following are the STO in python.
+
+->Identity operators
+->Membership operators
+
+->Identity operators:
+=====================
+Python supports identity operator.It is a specail type of operators.The main 
+objective of identity operator is meant for address comparsion and return boolean 
+values.Following are the Identity operators
+
+->is 
+->is not
+
+
+Ex1:
+===
+import time 
+L1=[111,112,113,114,115,116]
+L2=[111,112,113,114,115,116]
+print("====List objects=====")
+print(L1)
+print()
+print(L2)
+print()
+print("====Addresses=====")
+print(id(L1))
+print()
+print(id(L2))
+print()
+print("====Using Identity operators====")
+print("The result is:",L1 is L2)
+print()
+print("The Data type is:",type(L1 is L2))
+print()
+print("The result is:",L1 is not L2)
+print()
+print("The Data type is:",type(L1 is not L2))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+L1=[111,112,113,114,115]
+L2=[111,112,113,114,115,116]
+print("====List objects=====")
+print(L1)
+print()
+print(L2)
+print()
+print("====Addresses=====")
+print(id(L1))
+print()
+print(id(L2))
+print()
+print("====Using Identity operators====")
+print("The result is:",L1 is L2)
+print()
+print("The Data type is:",type(L1 is L2))
+print()
+print("The result is:",L1 is not L2)
+print()
+print("The Data type is:",type(L1 is not L2))
+print()
+time.sleep(2)
+print('End of an application')
+
+Ex3:
+===
+import time 
+L1=(10,20,30,40,50)
+L2=(10,20,30,40,50)
+print("====List objects=====")
+print(L1)
+print()
+print(L2)
+print()
+print("====Addresses=====")
+print(id(L1))
+print()
+print(id(L2))
+print()
+print("====Using Identity operators====")
+print("The result is:",L1 is L2)
+print()
+print("The Data type is:",type(L1 is L2))
+print()
+print("The result is:",L1 is not L2)
+print()
+print("The Data type is:",type(L1 is not L2))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex4:
+===
+import time 
+L1=(10,20,30,40)
+L2=(10,20,30,40,50)
+print("====List objects=====")
+print(L1)
+print()
+print(L2)
+print()
+print("====Addresses=====")
+print(id(L1))
+print()
+print(id(L2))
+print()
+print("====Using Identity operators====")
+print("The result is:",L1 is L2)
+print()
+print("The Data type is:",type(L1 is L2))
+print()
+print("The result is:",L1 is not L2)
+print()
+print("The Data type is:",type(L1 is not L2))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex5:
+===
+import time 
+L1=(chr(65),chr(66),chr(67),chr(68))
+L2=(chr(65),chr(66),chr(67),chr(68))
+print("====List objects=====")
+print(L1)
+print()
+print(L2)
+print()
+print("====Addresses=====")
+print(id(L1))
+print()
+print(id(L2))
+print()
+print("====Using Identity operators====")
+print("The result is:",L1 is L2)
+print()
+print("The Data type is:",type(L1 is L2))
+print()
+print("The result is:",L1 is not L2)
+print()
+print("The Data type is:",type(L1 is not L2))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex6:
+===
+import time 
+L1=('A','B','C','D')
+L2=('A','B','C','D')
+print("====List objects=====")
+print(L1)
+print()
+print(L2)
+print()
+print("====Addresses=====")
+print(id(L1))
+print()
+print(id(L2))
+print()
+print("====Using Identity operators====")
+print("The result is:",L1 is L2)
+print()
+print("The Data type is:",type(L1 is L2))
+print()
+print("The result is:",L1 is not L2)
+print()
+print("The Data type is:",type(L1 is not L2))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Interview_Question:
+=================
+What is the difference between == and is ?
+
+
+Ex1:
+===
+import time 
+X1=[1,2,3,4,5]
+X2=[1,2,3,4,5]
+print('----List_Values-----')
+print(X1)
+print()
+print(X2)
+print()
+print('----Addresses----')
+print(id(X1))
+print()
+print(id(X2))
+print()
+print("----Using == operator-----")
+print(X1==X2)
+print()
+print("----Using is operator----")
+print(X1 is X2)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+X1=[1,2,3,4]
+X2=[1,2,3,4,5]
+print('----List_Values-----')
+print(X1)
+print()
+print(X2)
+print()
+print('----Addresses----')
+print(id(X1))
+print()
+print(id(X2))
+print()
+print("----Using == operator-----")
+print(X1==X2)
+print()
+print("----Using is operator----")
+print(X1 is X2)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+
+

@@ -1,0 +1,433 @@
+Complex data type:
+=================
+Python supports complex data type. We can define or declare complex
+data type as follows.The main objective of complex data type is to perform 
+complex operations.It may be either + complex data type or  - complex data type.
+
+X1=1000+2000J or j
+
+X2=-123-160j or J
+
+
+X1=1000+2000J or j
+    
+      1000 ----> real part ---->X1.real ---->1000.0
+      2000 ---->Imginary part --->X1.imag ---->2000.0
+
+
+Ex1:
+===
+import time 
+X1=1000+200J 
+print("The complex value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+X2=-150-170j 
+print("The complex value is:",X2)
+print()
+print("The data type is:",type(X2))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+X1=1000+200J 
+print("The complex value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+print("====Real Part=====")
+print(X1.real)
+print()
+print("====Imaginary part=====")
+print(X1.imag)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex3:
+===
+import time 
+X1=200J 
+print("The complex value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+print("====Real Part=====")
+print(X1.real)
+print()
+print("====Imaginary part=====")
+print(X1.imag)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex4:
+===
+import time 
+X1=2000J+12000 
+print("The complex value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+print("====Real Part=====")
+print(X1.real)
+print()
+print("====Imaginary part=====")
+print(X1.imag)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex5:
+===
+import time 
+X1=10+20J
+X2=100+200J 
+res1=X1+X2 
+print("Complex Addition is:",res1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex6:
+===
+import time 
+X1=123.45+200J 
+print("The complex value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex7:
+===
+import time 
+X1=True+200J 
+print("The complex value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex8:
+===
+import time 
+X1=False+200J 
+print("The complex value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+print("The real part is:",X1.real)
+print()
+print("The imginary part is:",X1.imag)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+In_valid_cases for real part:
+============================
+
+Ex1:
+====
+import time 
+X1='1000'+200J 
+print("The complex value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+print("The real part is:",X1.real)
+print()
+print("The imginary part is:",X1.imag)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+X1='Python'+200J 
+print("The complex value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+print("The real part is:",X1.real)
+print()
+print("The imginary part is:",X1.imag)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+Ex1:
+===
+import time 
+X1=100+123.45J 
+print("The complex value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+print("The real part is:",X1.real)
+print()
+print("The imginary part is:",X1.imag)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+In_valid cases for imaginary part:
+==================================
+Ex1:
+===
+import time 
+X1=100+TrueJ 
+print("The complex value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+print("The real part is:",X1.real)
+print()
+print("The imginary part is:",X1.imag)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+X1=100+FalseJ 
+print("The complex value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+print("The real part is:",X1.real)
+print()
+print("The imginary part is:",X1.imag)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+X1=100+F'10'J 
+print("The complex value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+print("The real part is:",X1.real)
+print()
+print("The imginary part is:",X1.imag)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex4:
+===
+import time 
+X1=100+F'Django'J 
+print("The complex value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+print("The real part is:",X1.real)
+print()
+print("The imginary part is:",X1.imag)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex1:
+===
+import time 
+X1=chr(65)
+print(X1)
+print()
+X2=chr(97)
+print(X2)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+X1=ord('A')
+print(X1)
+print()
+X2=ord('a')
+print(X2)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex3:
+===
+import time 
+X1=ord('d')+30000J 
+print("The complex value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex4:
+===
+import time 
+X1=chr(68)+30000J 
+print("The complex value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+
+->input():
+==========
+It is a predefine function in python.The main objective of input() function is 
+to read the dynamically value from the keyword.What ever the data type or value
+we are reading using input() function by_default PVM will consider string type.
+
+
+Ex1:
+===
+import time 
+X1=input("Enter the value of X1:")
+print(X1)
+print()
+print(type(X1))
+print()
+time.sleep(2)
+print('End of an application')
+
+OUTPUT:
+======
+
+C:\Users\Admin\Desktop>Python test1.py
+Enter the value of X1:100
+100
+
+<class 'str'>
+
+End of an application
+
+C:\Users\Admin\Desktop>Python test1.py
+Enter the value of X1:123.45
+123.45
+
+<class 'str'>
+
+End of an application
+
+C:\Users\Admin\Desktop>Python test1.py
+Enter the value of X1:True
+True
+
+<class 'str'>
+
+End of an application
+
+C:\Users\Admin\Desktop>Python test1.py
+Enter the value of X1:100+200J
+100+200J
+
+<class 'str'>
+
+End of an application
+
+C:\Users\Admin\Desktop>
+
+
+Ex2:
+===
+import time 
+X1=input("Enter the value of X1:")
+X2=input("Enter the value of X2:")
+res1=X1+X2 
+print("Result_set is:",res1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Why Python supports typecasting ?
+===============================
+
+
+Ex1:
+===import time 
+print("=====Before Typecasting=====")
+X1=input("Enter the value of X1:")
+X2=input("Enter the value of X2:")
+res1=X1+X2 
+print(type(X1))
+print()
+print(type(X2))
+print("Result_set is:",res1)
+print()
+print(type(res1))
+print()
+print("=====After TypeCasting=====")
+X1=int(input("Enter the value of X1:"))
+X2=int(input("Enter the value of X2:"))
+res1=X1+X2 
+print(type(X1))
+print()
+print(type(X2))
+print("Result_set is:",res1)
+print()
+print(type(res1))
+time.sleep(2)
+print('End of an application')
+
+
+
+Typecasting:
+============
+Python supports typecasting.It is process or methodlogy converting
+from one type data into another type of data using following functions
+
+->int()
+->float()
+->complex()
+->bool()
+->str()
+
+
+
+
+
+
+
+
+
+
+
+
+

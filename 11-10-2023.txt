@@ -1,0 +1,264 @@
+Ex1:
+====
+import time 
+for x1 in range(True+False+2,True+False+20,True+3+False+True):
+    print(x1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Note:
+====
+True --- 1
+False --- 0
+
+
+None data type:
+=============
+Python supports None data type.The main objective of None data type nothing
+or empty.
+
+
+Ex1:
+===
+import time 
+Esal=25000 
+print("Employee salary at time of joining:",Esal)
+print()
+print("Data type is:",type(Esal))
+print()
+Esal=None 
+print("Employee salary at time of joining:",Esal)
+print()
+print("Data type is:",type(Esal))
+print()
+Esal=25000+9000 
+print("Employee after six months salary at time of joining:",Esal)
+print()
+print("Data type is:",type(Esal))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Operators:
+===========
+Python supports an operators.
+
+What is an operators?
+=====================
+An operator is a symbol which is used to perform some operations between 
+operands or variables then it is said to an operators.Python supports following
+operators
+
+->Arithmetic operators
+->Assignment operators
+->Logical operators
+->Equality operators
+->Comparision operators
+->Chaining operators
+->Ternary operator
+->Specail type of operators
+->Bitwise operators
+
+
+
+->Arithmetic operators:
+=======================
+Python supports Arithmetic operators.The main objective of AO is to perform
+AO operations as per the application requirement.Following are the AO in python
+
+->+,*,/,//,%,**,-
+
+
+Ex1:
+===
+import time 
+X1=eval(input("Enter the value of X1:"))
+X2=eval(input("Enter the value of X2:"))
+print()
+print("====Using AO =====")
+res1=X1+X2 
+res2=X1/X2 
+res3=X1//X2 
+res4=X1*X2 
+res5=X1%X2 
+res6=X1**X2 
+print("Sum is:",res1)
+print()
+print("Division is:",res2)
+print()
+print("Floor_Divison is:",res3)
+print()
+print("Product is:",res4)
+print()
+print("Mod is:",res5)
+print()
+print("Expo value is:",res6)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+->Assingnment operator:
+======================
+Python supports Assignment operators.The main objective of Assingnment operators
+is perform some mathmatical operations by utilizing the memory management.
+
+
+AO                                       Assignment operators
+==============================================================
+a=a+b                                    a+=b
+a=a/b                                    a/=b
+a=a*b                                    a*=b 
+--
+--
+
+
+Ex1:
+===
+import time 
+X1=eval(input("Enter the value of X1:"))
+X2=eval(input("Enter the value of X2:"))
+print()
+print("====Using Assignment Operators====")
+print("Sum is:",X1+=X2)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+X1=eval(input("Enter the value of X1:"))
+X2=eval(input("Enter the value of X2:"))
+print()
+print("====Using Assignment Operators====")
+X1+=X2  #X1=X1+X2
+print("Sum is:",X1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex3:
+===
+import time 
+X1=eval(input("Enter the value of X1:"))   #10
+X2=eval(input("Enter the value of X2:"))   #5
+print()
+print("====Using Assignment Operators====")
+X1+=X2  
+print("Sum is:",X1)
+print()
+X1*=X2 
+print("Product is:",X1)
+print()
+X1/=X2 
+print("Division is:",X1)
+print()
+X1//=X2 
+print("Floor_Div is:",X1)
+print()
+X1-=X2 
+print("Substraction is:",X1)
+print()
+X1%=X2 
+print("Mod is:",X1)
+print()
+X1**=X2
+print("Expo value is:",X1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Interview_Question:
+===================
+What is difference between Arithmetic operators and Assignment operators 
+with meaning_ful example.
+
+
+
+Logical operators:
+==================
+Python supports logical operators.The main objective of logical operators is to perform
+some logical operations as per the application reqn.Following are the logical operators in python.
+
+->logical and  ----> and
+->logical or  ----> or 
+->logical not  ----> not
+
+
+->logical and  ----> and:
+===========================
+
+True --- 1
+False  --- 0 
+
+X1   X2     X1 and X2
+======================
+1   0            0          
+0   1            0
+1   1            1
+0   0            0
+======================
+
+Logical and operator is meant for provide the security to our application
+
+
+Ex1:
+===
+import time 
+print('====Welcome to IHUB======')
+username=input('Enter the username:')
+password=input('Enter the password:')
+if(username=="Rahul_12345" and password=="R_12345"):
+    print(username,password,": Login successfully")
+else:
+    print(username,password,":In_valid user")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+->logical or  ----> or :
+======================
+X1   X2     X1 or X2
+======================
+1   0            1         
+0   1            1
+1   1            1
+0   0            0
+======================
+
+
+Ex1:
+===
+import time 
+First_Name=input("Enter the First_Name:")
+Last_Name=input("Enter the Last_Name:")
+username=input("Enter the username:")
+P1=input("Enter the Password:")
+P2=input("Enter the Confirm password:")
+if((First_Name=="Yash" or Last_Name=="Borse") or(username=="yash12345" and P1=="yash" and P2=="yash")):
+    print("====User_Details=====")
+    print("First_Name is:",First_Name)
+    print("Last_Name is:",Last_Name)
+    print("UserName is:",username)
+    print("Password is:",P1)
+    print("Confirm password is:",P2)
+else:
+    print("Dear user please enter the username/P1/P2")
+print()
+time.sleep(2)
+print('End of an application')
+
+
+
+
+
+
+

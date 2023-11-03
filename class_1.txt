@@ -1,0 +1,105 @@
+What are the sofwares are required to lean Python(Full Stack Python developement)
+
+->Python 3.7.0 
+->IDET --->Visual studio code,Pycharm,Jyputer,Anaconda Python,Subline text
+
+
+How to save a python file:
+=========================
+We can save a  python file using .py extension with any_name
+
+
+Valid_file_names:
+=================
+index1.py
+index2.py
+test1.py
+test2.py
+
+
+Invalid_file_names:
+==================
+123456.py
+test   1.py
+rahul verma.py
+
+
+->print()
+->id()
+->type()
+
+
+->print():
+=========
+It is a predefine function in python.The main objective of print()
+function is to display the content on the console or application console with
+'' or "" or '''''' or """""" or variable or identier_name.
+
+
+Ex1:
+===
+print('Core Python session is going on at IHUB')
+print("Core Python session is going at IHUB")
+print('''Core Python session is going at IHUB''')
+print("""Core Python session is going at IHUB""")
+Eid=1001
+print(Eid)
+
+OUTPUT:
+=====
+C:\Users\Admin\Desktop\Python_24_batch>Python index1.py
+Core Python session is going on at IHUB
+Core Python session is going at IHUB
+Core Python session is going at IHUB
+Core Python session is going at IHUB
+1001
+
+C:\Users\Admin\Desktop\Python_24_batch>python index1.py
+Core Python session is going on at IHUB
+Core Python session is going at IHUB
+Core Python session is going at IHUB
+Core Python session is going at IHUB
+1001
+
+C:\Users\Admin\Desktop\Python_24_batch>py index1.py
+Core Python session is going on at IHUB
+Core Python session is going at IHUB
+Core Python session is going at IHUB
+Core Python session is going at IHUB
+1001
+
+
+Ex2:
+====
+print('Core Python session is going on at IHUB')
+print()
+print("Core Python session is going at IHUB")
+print()
+print('''Core Python session is going at IHUB''')
+print()
+print("""Core Python session is going at IHUB""")
+Eid=1001
+print()
+print(Eid)
+print()
+print("End of an application")
+
+
+Ex3:
+===
+import time
+print('Core Python session is going on at IHUB')
+print()
+print("Core Python session is going at IHUB")
+print()
+print('''Core Python session is going at IHUB''')
+print()
+print("""Core Python session is going at IHUB""")
+Eid=1001
+print()
+print(Eid)
+time.sleep(3)
+print()
+print("End of an application")
+
+

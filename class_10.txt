@@ -1,0 +1,191 @@
+->Immutable object(State_less object) & Mutable object(State_full object):
+===========================================================================
+
+
+Immutable object(State_less object):
+====================================
+Once we create an object we cannot modify or we can not change then it
+is said to be immutable object(state_less object).
+
+
+Ex:Int,float,str,complex,boolean,tuple,frozenset,bytes
+
+
+Ex1:
+===
+import time 
+str1="core Python"
+print('=====Before Immutable object======')
+print(str1)
+print()
+print(type(str1))
+print()
+print('====After Immutable operations=====')
+str1[0]="C"
+print(str1)
+print()
+print(type(str1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+OUTPUT:
+=====
+=====Before Immutable object======
+core Python
+
+<class 'str'>
+
+====After Immutable operations=====
+Traceback (most recent call last):
+  File "test1.py", line 9, in <module>
+    str1[0]="C"
+TypeError: 'str' object does not support item assignment
+
+
+
+Mutable object(State_Full object):
+=================================
+Once we create an object we can modify or we can changes as per 
+the application reqn.Then it is said to be mutable object or State_full object
+
+
+Ex1:List,Set,Dict,bytearray
+
+
+
+List data type:
+==============
+Python supports list data type.if you want  to represent one or more than one
+object as a single entity or group of objects as a single entity then we can go
+list data type.In python list data type can be represent as [] and list().
+
+
+Ex1:
+===
+import time 
+L1=[]
+print(L1)
+print()
+print(type(L1))
+print()
+L2=list()
+print(L2)
+print()
+print(type(L2))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+L1=[1001]
+print(L1)
+print()
+print(type(L1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex3:
+===
+import time 
+L1=[1001,1002]
+print(L1)
+print()
+print(type(L1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+
+Properties for List data type:
+=============================
+->Inseration is preserved
+->Duplicate objects are allowed
+->Hetrogenious objects are allowed
+->List is a mutable object(State_full object)
+->List is a dynamic or growable
+->Indexing and slice operator is applicable for list data type.
+
+
+
+->Inseration is preserved(Input==Output):
+========================================
+Ex1:
+===
+import time 
+L1=eval(input('Enter the List data type:'))
+print(L1)
+print()
+print(type(L1))
+print()
+print("====Reading Each object from the list====")
+for a1 in L1:
+    print(a1)
+print()
+time.sleep(2)
+print("End of an application")
+
+OUTPUT:
+======
+Enter the List data type:[1001,1002,1003,1004,1005]
+[1001, 1002, 1003, 1004, 1005]
+
+<class 'list'>
+
+====Reading Each object from the list====
+1001
+1002
+1003
+1004
+1005
+
+End of an application
+
+
+->Duplicate objects are allowed:
+================================
+
+Ex1:
+===
+import time 
+L1=eval(input('Enter the List data type:'))
+print(L1)
+print()
+print(type(L1))
+print()
+print("====Reading Each object from the list====")
+for a1 in L1:
+    print(a1)
+print()
+time.sleep(2)
+print("End of an application")
+
+OUTPUT:
+======
+Enter the List data type:[1001,1002,1003,1004,1005,1001,1002,1003]
+[1001, 1002, 1003, 1004, 1005, 1001, 1002, 1003]
+
+<class 'list'>
+
+====Reading Each object from the list====
+1001
+1002
+1003
+1004
+1005
+1001
+1002
+1003
+
+End of an application
+
+
+
+

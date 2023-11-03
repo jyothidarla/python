@@ -1,0 +1,230 @@
+An identifier(variable)
+=======================
+
+What is difference between an identifier and variable?
+
+1+2=3
+2+1=3
+
+It is a name inside the python script or python module or python program.
+
+
+Rule_1:
+======
+Only allow characters from A-Z or a-z or number from 0-9 and only
+specail character(_).
+
+Specail characters in Python:_,space,$,#,@,.
+
+
+Ex1:
+===
+import time 
+ABC=170 
+print("The value of ABC is:",ABC)
+print()
+print("The address is:",id(ABC))
+print()
+print("The data type is:",type(ABC))
+print()
+time.sleep(3)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+abc=180 
+print("The value of abc is:",abc)
+print()
+print("The address is:",id(abc))
+print()
+print("The data type is:",type(abc))
+print()
+time.sleep(3)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+ABC_abc=1000
+print("The value is:",ABC_abc)
+print()
+print("The address is:",id(ABC_abc))
+print()
+print("The data type is:",type(ABC_abc))
+print()
+time.sleep(3)
+print("End of an application")
+
+
+Ex4:
+===
+import time 
+ABC_abc_12345=1200
+print("The value is:",ABC_abc_12345)
+print()
+print("The address is:",id(ABC_abc_12345))
+print()
+print("The data type is:",type(ABC_abc_12345))
+print()
+time.sleep(3)
+print("End of an application")
+
+
+Ex5:
+===
+import time 
+_=1200
+print("The value is:",_)
+print()
+print("The address is:",id(_))
+print()
+print("The data type is:",type(_))
+print()
+time.sleep(3)
+print("End of an application")
+
+
+Ex6:
+===
+import time 
+____________=1500
+print("The value is:",____________)
+print()
+print("The address is:",id(____________))
+print()
+print("The data type is:",type(____________))
+print()
+time.sleep(3)
+print("End of an application")
+
+
+Ex7:
+===
+import time 
+_ _=1500
+print("The value is:",_ _)
+print()
+print("The address is:",id(_ _))
+print()
+print("The data type is:",type(_ _))
+print()
+time.sleep(3)
+print("End of an application")
+
+
+Ex8:
+===
+import time 
+$=1500
+print("The value is:",$)
+print()
+print("The address is:",id($))
+print()
+print("The data type is:",type($))
+print()
+time.sleep(3)
+print("End of an application")
+
+
+Ex9:
+===
+import time 
+ABC_abc_$=1500
+print("The value is:",ABC_abc_$)
+print()
+print("The address is:",id(ABC_abc_$))
+print()
+print("The data type is:",type(ABC_abc_$))
+print()
+time.sleep(3)
+print("End of an application")
+
+
+Ex10:
+====
+import time 
+ ABC_abc=120 
+print("The value is:", ABC_abc)
+print()
+print("Address is:",id( ABC_abc))
+print()
+print("Data type is:",type( ABC_abc))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+Rule_2:
+=======
+An identifier or variable name should not start with number
+
+
+Ex1:
+===
+import time 
+12345_abc_ABC=123 
+print("The value is:",12345_abc_ABC)
+print()
+print("The address is:",id(12345_abc_ABC))
+print()
+print()
+print("The data type is:",type(12345_abc_ABC))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+A12345_abc_ABC=123 
+print("The value is:",A12345_abc_ABC)
+print()
+print("The address is:",id(A12345_abc_ABC))
+print()
+print()
+print("The data type is:",type(A12345_abc_ABC))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex3:
+===
+import time 
+a12345_abc_ABC=123 
+print("The value is:",a12345_abc_ABC)
+print()
+print("The address is:",id(a12345_abc_ABC))
+print()
+print()
+print("The data type is:",type(a12345_abc_ABC))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex4:
+===
+import time 
+_12345_abc_ABC=123 
+print("The value is:",_12345_abc_ABC)
+print()
+print("The address is:",id(_12345_abc_ABC))
+print()
+print()
+print("The data type is:",type(_12345_abc_ABC))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+
+
+
+
+

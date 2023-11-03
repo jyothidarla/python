@@ -1,0 +1,273 @@
+Rule_5:
+======
+An Identifier or variable should not start with RK as we know that
+in python we do have 35 RK in that first three are in title case True,
+False,None and remaining all are in lowercase.
+
+
+Ex1:
+===
+import time 
+import keyword as IHUB 
+print("====35 RK====")
+print(IHUB.kwlist)
+print("===============")
+print()
+time.sleep(2)
+print('End of an application')
+
+
+OUTPUT:
+======
+====35 RK====
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+===============
+
+End of an application
+
+
+Ex1:
+===
+import time 
+if=12000 
+print("The value is:",if)
+print()
+print("The address is:",id(if))
+print()
+print("The data type is:",type(if))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+If=12000 
+print("The value is:",If)
+print()
+print("The address is:",id(If))
+print()
+print("The data type is:",type(If))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+import=12000 
+print("The value is:",import)
+print()
+print("The address is:",id(import))
+print()
+print("The data type is:",type(import))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex4:
+====
+import time 
+impOrt=12000 
+print("The value is:",impOrt)
+print()
+print("The address is:",id(impOrt))
+print()
+print("The data type is:",type(impOrt))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex5:
+====
+import time 
+True=12000 
+print("The value is:",True)
+print()
+print("The address is:",id(True))
+print()
+print("The data type is:",type(True))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex6:
+====
+import time 
+true=12000 
+print("The value is:",true)
+print()
+print("The address is:",id(true))
+print()
+print("The data type is:",type(true))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Task_1:
+=======
+->Develop 20 valid_cases(Python_Script) using five rules of an identifier(variable)
+
+
+Task_2:
+=======
+->Develop 20 In_valid_cases(Python_Script) using five rules of an identifier(variable)
+
+
+
+Data types in Python:
+=====================
+
+What are data types used for?
+=============================
+Data types are used to store different value or object at memory allocation via variable as 
+per the application reqn.Following data types supported by python.
+
+
+->Integer data type
+->Floating data type
+->Boolean data type
+->String data type
+->Complex data type
+->List data type
+->Tuple data type
+->Set data type
+->Dict data type
+->Bytes data type
+->bytearray data type
+->frozenset data type
+->range data type
+->None data type
+
+
+->Integer data type:
+====================
+Python supports integer data type.It can be represent as number of 
+decimal number from 0-9.It may be either + number or - number with any size.
+
+
+Ex1:
+===
+import time 
+X1=17800 
+print("The value of X1 is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+X2=-12300 
+print("The value of X2 is:",X2)
+print()
+print("The data type is:",type(X2))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+->Floating data type:
+====================
+Python supports floating data type.Floating data type or Decimal point data type can be
+represent as if we are using floatin values either + floating value or - floating values.In python
+1.3e is also consider as floating data type.
+
+
+Ex1:
+===
+import time 
+X1=123.56 
+print("The value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+X2=-167.89 
+print("The value is:",X2)
+print()
+print("The data type is:",type(X2))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+X1=1.3e 
+print("The value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+X1=1.3*10*10 
+print("The value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+time.sleep(2)
+print("End of an application")
+
+Ex4:
+===
+import time 
+X1=1.3e1
+print("The value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex5:
+====
+import time 
+X1=1.3e0
+print("The value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex6:
+===
+import time 
+X1=1.3e2
+print("The value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex7:
+===
+import time 
+X1=1.3e4
+print("The value is:",X1)
+print()
+print("The data type is:",type(X1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+
+
+
+
+
+

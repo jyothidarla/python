@@ -1,0 +1,372 @@
+insert():
+========
+It is a predefine function in python.The main objective of insert() function
+is to insert the data using indexing position.Using insert() function we can
+data or information using + direction and - direction as well
+
+
+Ex1:
+===
+import time 
+L1=[1001,1002,1003,1004,1005]
+print(L1)
+print()
+L1.insert(1,'A')
+print(L1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+L1=[]
+print(L1)
+print()
+L1.insert(0,ord('A'))
+L1.insert(1,ord('B'))
+L1.insert(2,ord('C'))
+print(L1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+L1=[]
+print(L1)
+print()
+L1.insert(-1,chr(65))
+L1.insert(-2,chr(66))
+L1.insert(-3,chr(67))
+print(L1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+Ex4:
+===
+import time 
+L1=[2001,2002,2003,2004,2005]
+print(L1)
+L1.insert(-2,'ABC')
+print(L1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+pop():
+=====
+It is a predefine function in python.The main objective of pop() is remove 
+the objects as per the application reqn.
+
+   ->If we are pop() functio to list data type it will remove last object or
+element
+   ->Using pop() function we can remove the particular object using + direction 
+    and - direction.
+
+
+Ex1:
+===
+import time 
+L1=[2001,2002,2003,2004,2005]
+print("Before operation:",L1)
+print()
+res1=L1.pop()
+print()
+print(res1)
+print()
+print("After opeation:",L1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+L1=[2001,2002,2003,2004,2005]
+print("Before operation:",L1)
+print()
+res1=L1.pop(1)
+print()
+print(res1)
+print()
+print("After opeation:",L1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+L1=[2001,2002,2003,2004,2005]
+print("Before operation:",L1)
+print()
+res1=L1.pop(-2)
+print()
+print(res1)
+print()
+print("After opeation:",L1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+->sort():
+=========
+It is a predefine function in python.The main objective of sort() function is
+sorting the only list elements or objects from ascending to decending order.
+
+
+Ex1:
+===
+import time 
+L1=[1000,99,13,1,7,4,112]
+print("Before operations:",L1)
+print()
+L1.sort()
+print("After operations:",L1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+L1=[1000,99,13,1,7,4,112]
+print("Before operations:",L1)
+print()
+L1.sort()
+print("After operations:",L1)
+print()
+L1.sort(reverse=True)
+print("Reverse of list is:",L1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+T1=(1000,99,13,1,7,4,112)
+print()
+L1=list(T1)
+print(L1)
+print()
+L1.sort()
+print(L1)
+print()
+L1.sort(reverse=True)
+print(L1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+sorted:
+======
+It is a predefine function in python.The main objective of sort()
+function is sort any type of data 
+
+
+Ex1:
+===
+
+import time 
+T1=(1000,99,13,1,7,4,112)
+print("Before operation:",T1)
+print()
+print(type(T1))
+print()
+res1=sorted(T1)
+print(res1)
+print()
+res1=sorted(T1,reverse=True)
+print(res1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+T1=[1000,99,13,1,7,4,112]
+print("Before operation:",T1)
+print()
+print(type(T1))
+print()
+res1=sorted(T1)
+print(res1)
+print()
+res1=sorted(T1,reverse=True)
+print(res1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex3:
+====
+import time 
+T1={1000,99,13,1,7,4,112}
+print("Before operation:",T1)
+print()
+print(type(T1))
+print()
+res1=sorted(T1)
+print(res1)
+print()
+res1=sorted(T1,reverse=True)
+print(res1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex4:
+===
+import time 
+T1={3:101,1:67,9:23,2:17}.keys()
+print("Before operation:",T1)
+print()
+print(type(T1))
+print()
+res1=sorted(T1)
+print(res1)
+print()
+res1=sorted(T1,reverse=True)
+print(res1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex5:
+===
+import time 
+T1={3:101,1:67,9:23,2:17}.values()
+print("Before operation:",T1)
+print()
+print(type(T1))
+print()
+res1=sorted(T1)
+print(res1)
+print()
+res1=sorted(T1,reverse=True)
+print(res1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex6:
+===
+import time 
+T1={3:101,1:67,9:23,2:17}.items()
+print("Before operation:",T1)
+print()
+print(type(T1))
+print()
+res1=sorted(T1)
+print(res1)
+print()
+res1=sorted(T1,reverse=True)
+print(res1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Tuple data type:
+================
+Python supports tuple data type.if you want to represent more than one
+object or group objects as a single entity then we can go for tuple data type.
+In python tuple data type can be represent as () and tuple().
+
+
+Note:
+=====
+While working with tuple data type.() are optional.
+
+
+Ex1:
+===
+import time 
+T1=()
+print(T1)
+print()
+print(type(T1))
+print()
+T2=tuple()
+print(T2)
+print()
+print(type(T2))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+
+Ex2:
+===
+import time 
+T1=(1001)
+print(T1)
+print()
+print(type(T1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+T1=(1001,)
+print(T1)
+print()
+print(type(T1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex4:
+===
+import time 
+T1=1001,
+print(T1)
+print()
+print(type(T1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+Properties for Tuple data type:
+==============================
+
+->Inseration is preserved
+->Duplicate objects are allowed
+->Hetrogenious objects are allowed
+->Tuple is immutable object
+->Tuple is a not dynamic and not growable
+->Indexing and slicing is applicable
+
+
+
+

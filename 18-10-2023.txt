@@ -1,0 +1,185 @@
+CLA in Python:
+=============
+Python supports CLA which stands for command line argument.CLA or command
+line argument can be represent as if we are passing one or more than one argument
+at time of executing our python script then is is said to be command line argument
+or CLA.If you want to implement CLA in python.We do have a module called sys module inside
+the sys module we do have an attribute called argv variable
+
+
+->argv variable returns the data or information in List
+->While working with argv variable all objects inside the list are bydefault
+string type and file_name will placed at indexing position
+->While working with argv variable indexing is applicable
+->While working with argv variable slice operator is applicable
+->While working with argv variable if you read full name we must use "" not 
+''.
+
+Ex1:
+===
+import time 
+from sys import * 
+print(argv)
+print()
+print(type(argv))
+print()
+time.sleep(2)
+print('End of an application')
+
+OUTPUT:
+======
+C:\Users\Admin\Desktop>Python test1.py 1000 2000 3000
+['test1.py', '1000', '2000', '3000']
+
+<class 'list'>
+
+End of an application
+
+
+Ex2:
+===
+import time 
+from sys import * 
+print(argv)
+print()
+print(type(argv))
+print()
+print("====Indexing====")
+print(argv[0])
+print()
+print(argv[1])
+print()
+print(argv[2])
+print()
+print(argv[3])
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex3:
+====
+import time 
+from sys import * 
+print(argv)
+print()
+print(type(argv))
+print()
+print("====Slicing====")
+print(argv[1:])
+print()
+time.sleep(2)
+print('End of an application')
+
+OUTPUT:
+=====
+C:\Users\Admin\Desktop>Python test1.py 1000 2000 3000
+['test1.py', '1000', '2000', '3000']
+
+<class 'list'>
+
+====Slicing====
+['1000', '2000', '3000']
+
+End of an application
+
+
+Ex4:
+===
+import time 
+from sys import * 
+print(argv)
+print()
+print(type(argv))
+print()
+print("==== + ====")
+print(argv[1]+argv[2]+argv[3])
+print()
+time.sleep(2)
+print('End of an application')
+
+OUTPUT:
+=======
+C:\Users\Admin\Desktop>Python test1.py 1000 2000 3000
+['test1.py', '1000', '2000', '3000']
+
+<class 'list'>
+
+==== + ====
+100020003000
+
+End of an application
+
+
+Ex5:
+===
+import time 
+from sys import * 
+print(argv)
+print()
+print(type(argv))
+print()
+print("==== + ====")
+print(int(argv[1]+argv[2]+argv[3]))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex6:
+====
+import time 
+from sys import * 
+print(argv)
+print()
+print(type(argv))
+print()
+print("==== + ====")
+print(int(argv[1])+int(argv[2])+int(argv[3]))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex7:
+===
+import time 
+from sys import * 
+print(argv)
+print()
+print(type(argv))
+print()
+S1=0
+for x1 in argv[1:]:
+    x2=int(x1)
+    S1=S1+x2 
+print("Sum of any number of arguments:",S1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex8:
+===
+import time 
+from sys import * 
+print("My full name is:",argv[1])
+print()
+time.sleep(2)
+print('End of an application ...')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

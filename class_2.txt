@@ -1,0 +1,206 @@
+id():
+=====
+It is a predefine function in python.The main objective of this id()
+function is know the address of a variable at memory allocation
+
+
+What is difference between a script and a program?
+
+
+Python as a Script:
+==================
+A script can be represent as if the developers or programmer writing 
+the business logic as per the application reqn with one or more than
+predefine module than python act a script.
+
+
+Ex1:
+===
+import time 
+Eid=1001 
+print(Eid)
+print()
+print(id(Eid))
+print()
+time.sleep(3)
+print("End of an application")
+
+
+Python as a program:
+===================
+A Program can be represent as if the developers or programmer writing 
+the business logic as per the application reqn without one or more than
+predefine module than python act a program.
+
+
+Ex1:
+===
+Eid=1001 
+print(Eid)
+print()
+print(id(Eid))
+print()
+print("End of an application")
+
+
+Ex2:
+===
+import time
+Eid=1001
+print("Eid is:",Eid) 
+print()
+print("Address of Eid at memory allocation is:",id(Eid))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+type():
+======
+It is a predefine function in python.The main objective of type() function
+is know what type of data type we are using at time of writing the business as per
+application reqn.
+
+
+Eid=1001 ----> It is an object
+
+type(Eid) ----> <class 'int'>
+
+
+Ex1:
+===
+import time
+Eid=1001
+print("Eid is:",Eid) 
+print()
+print("Address of Eid at memory allocation is:",id(Eid))
+print()
+print("Data type is:",type(Eid))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+An identifier or variable:
+===========================
+
+What is the difference between an identifier or variable?
+
+1+2=3
+2+1=3
+
+
+->It is a name inside the python script or python program or python module.
+
+
+Rule_1:
+======
+Only allow characters are uppercase A-Z or lowercase a-z and number or decimal number
+from 0-9 and only specail character(_).
+
+Specail characters in python: _,$,space,@,#,.
+
+
+Ex1:
+===
+import time 
+ABC=1500 
+print("The value of ABC is:",ABC)
+print()
+print("The address is:",id(ABC))
+print()
+print("The data type is:",type(ABC))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+abc=1500 
+print("The value of ABC is:",abc)
+print()
+print("The address is:",id(abc))
+print()
+print("The data type is:",type(abc))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+ABC_abc=1500 
+print("The value of ABC is:",ABC_abc)
+print()
+print("The address is:",id(ABC_abc))
+print()
+print("The data type is:",type(ABC_abc))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex4:
+===
+import time 
+ABC_abc_123456=1500 
+print("The value of ABC is:",ABC_abc_123456)
+print()
+print("The address is:",id(ABC_abc_123456))
+print()
+print("The data type is:",type(ABC_abc_123456))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex5:
+===
+import time 
+_=1500 
+print("The value of ABC is:",_)
+print()
+print("The address is:",id(_))
+print()
+print("The data type is:",type(_))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex6:
+===
+import time 
+_______=1500 
+print("The value of ABC is:",_______)
+print()
+print("The address is:",id(_______))
+print()
+print("The data type is:",type(_______))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+Ex7:
+===
+import time 
+_ _=1500 
+print("The value of ABC is:",_ _)
+print()
+print("The address is:",id(_ _))
+print()
+print("The data type is:",type(_ _))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+
+
+

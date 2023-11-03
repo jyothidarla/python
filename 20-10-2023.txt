@@ -1,0 +1,526 @@
+if-else block:
+==============
+if-else is a decision making statement or conditional statements.If
+'if' block condition is True then if block will be executed otherwise
+else block will be executed.
+
+if(cond):
+  ----
+else:
+   ----
+
+if cond:
+   ---
+else:
+   ---
+
+
+Ex1:
+===
+import time 
+Password_1=input('Enter the password:')
+Password_2=input('Enter the Confirm password:')
+if(Password_1=="R_12345" and Password_2=="R_12345"):
+    print(Password_1,Password_2,":Valid Password")
+else:
+    print(Password_1,Password_2,":In_Valid Password")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+Password_1=input('Enter the password:')
+Password_2=input('Enter the Confirm password:')
+if(Password_1==Password_2):
+    print(Password_1,Password_2,":Valid Password")
+else:
+    print(Password_1,Password_2,":In_Valid Password")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+str1=input('Enter the String object:')
+str2=input('Enter the String object_Again:')
+if(str1=="Django" and str2=="Django"):
+    print(str1,str2,":It is a backend Web_Framework")
+else:
+    print(str1,str2,":It is not a backend Web_Framework")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex4:
+===
+import time 
+str1=input('Enter the String object:')
+str2=input('Enter the String object_Again:')
+if(str1==str2):
+    print(str1,str2,":It is a backend Web_Framework")
+else:
+    print(str1,str2,":It is not a backend Web_Framework")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex5:
+====
+import time 
+Number=eval(input("Enter any number to check +|- number:"))
+if(Number>=0):
+    print(Number,":IT IS + NUMBER")
+else:
+    print(Number,":IT IS - NUMBER")
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex6:
+===
+import time 
+Number=eval(input("Enter any number to check +|- number:"))
+if(Number%2==0):
+    print(Number,": IT IS EVEN NUMBER")
+else:
+    print(Number,":IT IS ODD NUMBER")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex7:
+===
+import time 
+str1=input("Enter the string object:")
+if(str1==str1[::-1]):
+    print(str1,str1[::-1],": IT PALINDROM OBJECT")
+else:
+    print(str1,str1[::-1],":IT IS NOT PALINDROM OBJECT")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+if-elif-else:
+=============
+Python supports if-elif-else.The main objective of if-elif-else is to check
+more than one condition.
+
+if(cond):
+   ---
+elif(cond):
+   ---
+elif(cond):
+    ---
+else:
+   ---
+
+
+Ex1:
+===
+import time 
+print("----Welcome to Full Stack Python development-----")
+print()
+Technology=input('Enter the Technology:')
+if(Technology=="Python"):
+    print(Technology,": Meant for to develop general purpose applications")
+elif(Technology=="JavaScript"):
+    print(Technology,":Meant for to perform client_side validation")
+elif(Technology=="Django"):
+    print(Technology,": Meant for to develop complete web applications")
+elif(Technology=="SQL"):
+    print(Technology,":Meant for to perform database operations")
+elif(Technology=="ReactJS"):
+    print(Technology,":Meant for to develop UI components")
+elif(Technology=="Angular"):
+    print(Technology,": Meant for Single page application")
+else:
+    print(Technology,":Enter the proper technology")
+print()
+time.sleep(2)
+print("End of an applicaition")
+
+0---ZERO
+1 ----ONE
+2----TWO
+9 ----NINE
+10 --->0to9
+
+Iterative statements:
+=====================
+Python supports iterative statements.Following are the iterative statements
+in python.
+
+->for loop
+->nested for loop
+->while loop
+->nested while loop 
+
+
+Note:
+====
+do while loop is not supported in python.
+
+
+->for loop:
+============
+for loop is a iterative statement.The main objective of for loop if you want to
+execute number of statement number of time if our data or information is in sequence
+then we can go for for loop
+
+for(cond):
+   ---
+
+
+Ex1:
+===
+import time 
+for x1 in range(10):
+    print("Welcome to IHUB")
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+for x1 in range(10):
+    print("*")
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex3:
+===
+import time 
+for x1 in [1001,1002,1003,1004,1005]:
+    print(x1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex4:
+====
+import time 
+for x1 in (1001,1002,1003,1004,1005):
+    print(x1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex5:
+===
+import time 
+for x1 in {1001,1002,1003,1004,1005,1006,1007}:
+    print(x1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex6:
+===
+import time 
+for x1 in {"Pid":1001,"Pname":"Mobile_1","Price":27000}.keys():
+    print(x1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex7:
+===
+import time 
+for x1 in {"Pid":1001,"Pname":"Mobile_1","Price":27000}.values():
+    print(x1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex8:
+====
+import time 
+for x1 in {"Pid":1001,"Pname":"Mobile_1","Price":27000}.items():
+    print(x1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex9:
+===
+import time 
+for x1,x2 in {"Pid":1001,"Pname":"Mobile_1","Price":27000}.items():
+    print(x1,"-",x2)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex10:
+===
+import time 
+for x1 in "Django":
+    print(x1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex11:
+====
+import time 
+X1=[1001,1002,1003,1004,1005]
+print()
+print(X1)
+print()
+for s1 in X1:
+    print(s1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex12:
+===
+import time 
+X1=[1001,1002,1003,1004,1005]
+print()
+print(X1)
+print()
+for s1 in X1:
+    print(X1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex13:
+====
+import time 
+X1=[chr(65),chr(66),chr(67)]
+print()
+print(X1)
+print()
+for s1 in X1:
+    print(X1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex14:
+=====
+import time 
+L1=[1001,1002,1003,1004,1005]
+for x1 in range(len(L1)):
+    print("Indexing values are:",x1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex15:
+====
+import time 
+L1=[1001,1002,1003,1004,1005]
+for x1 in range(len(L1)):
+    print("Indexing values are:",L1[x1])
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex16:
+====
+import time 
+L1=[1001,1002,1003,1004,1005]
+for x1 in range(len(L1)):
+    print(x1,"-",L1[x1])
+print()
+time.sleep(2)
+print('End of an application')
+
+L1=[10,11,12,13,14,15,16]
+
+Form_1:
+=====
+import time 
+for x1 in [10,11,12,13,14,15,16]:
+    if(x1%2==0):
+        print("Even objects from the list is:",x1)
+print()
+time.sleep(2)
+print()
+print('End of an application')
+
+
+Form_2:
+======
+import time 
+X1=[10,11,12,13,14,15,16]
+for X2 in X1:
+    if(X2%2==0):
+        print("Even objects are:",X2)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Form_3:
+=====
+import time 
+L1=[10,11,12,13,14,15,16]
+for x1 in range(len(L1)):
+    if(x1%2==0):
+        print("Even objects from list is:",L1[x1])
+print()
+time.sleep(2)
+print('End of an application')
+
+
+
+Wtite the three different cases to perform sum of list
+======================================================
+L1=[10,11,12,13,14,15,16]
+
+
+Form_1:
+=======
+import time 
+A=0 
+for x1 in [10,11,12,13,14,15,16]:
+    A=A+x1
+print('Sum of list is:',A)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Form_2:
+======
+import time 
+L1=[10,11,12,13,14,15,16]
+B=0
+for x1 in L1:
+    B=B+x1
+print("Sum of list is:",B)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Form_3:
+======
+import time 
+L1=[10,11,12,13,14,15,16]
+B=0
+for x1 in range(len(L1)):
+    B=B+L1[x1]
+print("Sum of list is:",B)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Sum of indexing
+================
+Ex1:
+====
+import time 
+L1=[10,11,12,13,14,15,16]
+B=0
+for x1 in range(len(L1)):
+    B=B+x1
+print("Sum of Indexing is:",B)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+1st Output: --->Form_1
+=======================
+D
+a
+t
+a 
+
+E
+n
+g
+i
+n
+e
+e
+r
+
+
+2nd Output: ---->Form_2
+=========================
+D
+a
+t
+a 
+
+E
+n
+g
+i
+n
+e
+e
+r
+
+
+3rd output:
+===========
+0 ---- D
+1 ----a
+2----t
+3 ----a
+4 ----
+5 ----E 
+
+
+Enter the number:7
+
+7*1=7
+---
+7*10=70
+
+Ex1:
+===
+import time 
+Number=eval(input("Enter any number:"))
+for x1 in range(1,11):
+    print(Number,"X",x1,"=",Number*x1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+
+
+
+
+
+
+
+
+
+
+

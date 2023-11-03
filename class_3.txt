@@ -1,0 +1,311 @@
+Ex1:
+===
+import time 
+ABC_abc_$=1200 
+print("The value is:",ABC_abc_$)
+print()
+print("The address is:",id(ABC_abc_$))
+print()
+print("The data type is:",type(ABC_abc_$))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+$=1200 
+print("The value is:",$)
+print()
+print("The address is:",id($))
+print()
+print("The data type is:",type($))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex3:
+===
+import time 
+ ABC_abc=12000 
+print("The value is:", ABC_abc)
+print()
+print("The address is:",id( ABC_abc))
+print()
+print("The data type is:",type( ABC_abc))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Rule_2:
+=======
+An identifier or variable should not start with number from 0-9
+
+
+Ex1:
+===
+import time 
+12345_abc_ABC=15000  
+print("The value is:",12345_abc_ABC)
+print()
+print("The address is:",id(12345_abc_ABC))
+print()
+print("The data type is:",type(12345_abc_ABC))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+A_12345_abc_ABC=15000  
+print("The value is:",A_12345_abc_ABC)
+print()
+print("The address is:",id(A_12345_abc_ABC))
+print()
+print("The data type is:",type(A_12345_abc_ABC))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+_12345_abc_ABC=15000  
+print("The value is:",_12345_abc_ABC)
+print()
+print("The address is:",id(_12345_abc_ABC))
+print()
+print("The data type is:",type(_12345_abc_ABC))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex4:
+===
+import time 
+a12345_abc_ABC=15000  
+print("The value is:",a12345_abc_ABC)
+print()
+print("The address is:",id(a12345_abc_ABC))
+print()
+print("The data type is:",type(a12345_abc_ABC))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+Rule_3:
+=======
+There is  no length limit for an identifier(variable)
+
+
+Ex1:
+===
+import time 
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=130 
+print("The value is:",AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA)
+print()
+print("The address is:",id(AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA))
+print()
+print("The data type is:",type(AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+SDLC
+=====
+->Developement phase
+->Testing Phase
+
+
+Ex2:
+===
+import time 
+A=150 
+print("The value is:",A)
+print()
+print("The address is:",id(A))
+print()
+print("The data type is:",type(A))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex3:
+===
+import time 
+age=21  
+print("The age is:",age)
+print()
+print("The address is:",id(age))
+print()
+print("The data type is:",type(age))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex4:
+===
+import time 
+Student_age=21  
+print("The age is:",Student_age)
+print()
+print("The address is:",id(Student_age))
+print()
+print("The data type is:",type(Student_age))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Rule_4:
+=======
+An identifier or variables are case sensitive and case insensitive as well.
+
+
+case sensitive :
+===============
+case sensitive  can be represent as if the address of variables are different then 
+it is said  to case senitive.
+
+
+A=23000 ---->id(A) ---->12345
+a=12000 ----> id(a) ---->54321
+
+
+Ex1:
+===
+import time 
+A=23000 
+a=12000 
+print("====Values====")
+print(A,a)
+print("===============")
+print()
+print("====Addresses======")
+print(id(A),id(a))
+print("========================")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+OUTPUT:
+======
+====Values====
+23000 12000
+===============
+
+====Addresses======
+10605152 10607856
+========================
+
+End of an application
+
+
+case insensitive:
+================
+case insensitive can be represent ad if the address of variables are same then it
+is said to be case insensitive.
+
+
+A=17000---->id(A)---->888123
+a=17000---->id(a) ---->888123
+
+
+Ex1:
+===
+import time 
+A=23000 
+a=23000 
+print("====Values====")
+print(A,a)
+print("===============")
+print()
+print("====Addresses======")
+print(id(A),id(a))
+print("========================")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+OUTPUT:
+=====
+====Values====
+23000 23000
+===============
+
+====Addresses======
+21811808 21811808
+========================
+
+End of an application
+
+
+Ex2:
+===
+import time 
+A=23000 
+A=24000 
+A=25000
+A=28000
+print("====Values====")
+print(A,A)
+print("===============")
+print()
+print("====Addresses======")
+print(id(A),id(A))
+print("========================")
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+Rule_5:
+=======
+An identifier or variable should not start with reserved keyword as we know that
+in python we do have 35 RK in that first three are in title case True,False,None and
+remaing 33 are in lowercase.
+
+
+Ex1:
+===
+import time 
+import keyword as IHUB 
+print("=====35 RK=====")
+print(IHUB.kwlist)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+OUTPUT:
+=======
+C:\Users\Admin\Desktop>Python test1.py
+=====35 RK=====
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
+End of an application
+
+
+
+
+
+
+
+
+
+                           

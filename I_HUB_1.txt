@@ -1,0 +1,144 @@
+What are softwares are requried to learn Python(Full Stack Python development)
+
+->Python 3.7.0
+->IDET --->Visual Studio code,PyCharm,Jyputer,Anaconda Python ,Subline_text
+
+
+How to create and save a python file:
+=====================================
+We can create and save a python file with .py extension with any_name.
+
+Ex:
+===
+index1.py
+demo1.py
+test1.py
+
+In_valid file name:
+===================
+12346.py
+test 1.py
+
+
+->print()
+->id()
+->type()
+
+
+->print():
+==========
+It is a predefine function in python.The main objective of print() function
+is to display the content on the console or application console with '' or
+"" or '''''' or """""" or variable(An identifier).
+
+
+Ex1:
+===
+print('Core Python session is going on at IHUB')
+print("Core Python session is going on at IHUB")
+print('''Core Python session is going on at IHUB''')
+print("""Core Python session is going on at IHUB""")
+Eid=1001
+print(Eid)
+
+
+Ex2:
+===
+print('Core Python session is going on at IHUB')
+print()
+print("Core Python session is going on at IHUB")
+print()
+print('''Core Python session is going on at IHUB''')
+print()
+print("""Core Python session is going on at IHUB""")
+Eid=1001
+print()
+print(Eid)
+print()
+print("End of an application")
+
+
+OUTPUT:
+======
+Core Python session is going on at IHUB
+Core Python session is going on at IHUB
+Core Python session is going on at IHUB
+Core Python session is going on at IHUB
+1001
+
+C:\Users\Admin\Desktop\Python_24_Batch>python index1.py
+Core Python session is going on at IHUB
+
+Core Python session is going on at IHUB
+
+Core Python session is going on at IHUB
+
+Core Python session is going on at IHUB
+
+1001
+
+End of an application
+
+C:\Users\Admin\Desktop\Python_24_Batch>py index1.py
+Core Python session is going on at IHUB
+
+Core Python session is going on at IHUB
+
+Core Python session is going on at IHUB
+
+Core Python session is going on at IHUB
+
+1001
+
+End of an application
+
+
+Python as Program:
+================
+If python developers are writing the business logic without using predefie
+module then it  is said to be Python act as program
+
+
+Python as Program:
+=================
+print('Core Python session is going on at IHUB')
+print()
+print("Core Python session is going on at IHUB")
+print()
+print('''Core Python session is going on at IHUB''')
+print()
+print("""Core Python session is going on at IHUB""")
+Eid=1001
+print()
+print(Eid)
+print()
+print("End of an application")
+
+Python as Script:
+=================
+If python developers are writing the business logic with using predefie
+module then it  is said to be Python act as script
+
+
+Ex1:
+===
+
+import time
+print('Core Python session is going on at IHUB')
+print()
+print("Core Python session is going on at IHUB")
+print()
+print('''Core Python session is going on at IHUB''')
+print()
+print("""Core Python session is going on at IHUB""")
+Eid=1001
+print()
+print(Eid)
+print()
+time.sleep(3)
+print("End of an application")
+
+
+
+
+

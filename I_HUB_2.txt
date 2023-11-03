@@ -1,0 +1,58 @@
+id():
+=====
+It is a predefine function in python.The main objective of id()
+function is know the address of a variable at memory allocation.
+
+Ex1:
+===
+import time 
+Eid=1004
+print(Eid)
+print()
+print(id(Eid))
+print()
+time.sleep(3)
+print("End of an application")
+
+
+
+Ex2:
+====
+import time 
+Eid=1004
+print("Eid is:",Eid)
+print()
+print("Address of Eid at memory allocation is:",id(Eid))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+type():
+=======
+It is a predefine function in python.The main objective of type()
+function is know what type data type we are using at time of writing
+the business logic.
+
+
+Ex1:
+===
+import time 
+Eid=1002  # It an object
+print("Eid is:",Eid)
+print()
+print("Address is:",id(Eid))
+print()
+print("Data type is:",type(Eid))   #<class 'int'>
+print()
+time.sleep(2)
+print('End of an application')
+
+
+
+What is the difference between an identifier or variable?
+
+
+1+2=3
+2+1=3
+

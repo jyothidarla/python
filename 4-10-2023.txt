@@ -1,0 +1,398 @@
+List data type:
+===============
+Python supports List data type.If you want to represent one or
+more than one objects or group of objects as single entity than we
+can go with list data type.In python list data type can be represent
+as [] and list()
+
+
+Ex1:
+===
+import time 
+L1=[] 
+print(L1)
+print()
+print(type(L1))
+print()
+L2=list()
+print(L2)
+print()
+print(type(L2))
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+L1=[1001] 
+print(L1)
+print()
+print(type(L1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+===
+import time 
+L1=[1001,1002,1003] 
+print(L1)
+print()
+print(type(L1))
+print()
+time.sleep(2)
+print("End of an application")
+
+Properties for List data type:
+=============================
+->Inseration is preserved
+->Duplicate objects are allowed
+->Hetrogeious objects are allowed
+->List is mutable state_full object
+->List is a dynamic or growable
+->Indexing and slice operator is applicable for list
+
+
+->Inseration is preserved(Input==Output):
+=========================================
+
+Ex1:
+===
+import time 
+L1=eval(input("Enter the List data type:"))
+print(L1)
+print()
+print(type(L1))
+print()
+print("====Reading the each object from the List====")
+for a1 in L1:
+    print(a1)
+print()
+time.sleep(2)
+print('End of an application')
+
+OUTPUT:
+======
+Enter the List data type:[1001,1002,1003,1004,1005]
+[1001, 1002, 1003, 1004, 1005]
+
+<class 'list'>
+
+====Reading the each object from the List====
+1001
+1002
+1003
+1004
+1005
+
+End of an application
+
+
+->Duplicate objects are allowed:
+================================
+
+Ex1:
+===
+import time 
+L1=eval(input("Enter the List data type:"))
+print(L1)
+print()
+print(type(L1))
+print()
+print("====Reading the each object from the List====")
+for a1 in L1:
+    print(a1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+OUTPUT:
+=======
+Enter the List data type:[101,102,103,104,101,102,103]
+[101, 102, 103, 104, 101, 102, 103]
+
+<class 'list'>
+
+====Reading the each object from the List====
+101
+102
+103
+104
+101
+102
+103
+
+End of an application
+
+->Hetrogeious objects are allowed:
+==================================
+
+Ex1:
+===
+import time 
+L1=eval(input("Enter the List data type:"))
+print(L1)
+print()
+print(type(L1))
+print()
+print("====Reading the each object from the List====")
+for a1 in L1:
+    print(a1)
+print()
+time.sleep(2)
+print('End of an application')
+
+OUTPUT:
+======
+Enter the List data type:[1001,"Rahul Sharma",34000.0,"Software engineer","Wipro"]
+[1001, 'Rahul Sharma', 34000.0, 'Software engineer', 'Wipro']
+
+<class 'list'>
+
+====Reading the each object from the List====
+1001
+Rahul Sharma
+34000.0
+Software engineer
+Wipro
+
+End of an application
+
+
+->List is mutable or state_full object:
+=======================================
+
+chr(65) ---->A 
+chr(97) --->a
+
+or
+ord('A') --->65
+ord('a')---->97
+
+
+Ex1:
+====
+import time 
+L1=[chr(65),chr(66),chr(67),chr(68)]
+print("====Before mutable operations=====")
+print(L1)
+print()
+print(type(L1))
+print()
+print("====After mutable operations====")
+L1[0]="A for apple"
+L1[1]="B for banana"
+L1[2]="C for carrot"
+L1[3]="D for Dragon"
+print(L1)
+print()
+print(type(L1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+OUTPUT:
+======
+import time 
+L1=[chr(65),chr(66),chr(67),chr(68)]
+print("====Before mutable operations=====")
+print(L1)
+print()
+print(type(L1))
+print()
+print("====After mutable operations====")
+L1[0]="A for apple"
+L1[1]="B for banana"
+L1[2]="C for carrot"
+L1[3]="D for Dragon"
+print(L1)
+print()
+print(type(L1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+->List is a dynamic or growable:
+================================
+List is a dynamic or growable which means we can increase or deccrease the
+size of the list using following function 
+
+->append():It is used to add only one object at time
+->remove():It is used to remove only object at time
+
+
+Ex1:
+===
+import time 
+L1=[] 
+print(L1)
+print('====Adding the Product Information====')
+L1.append(1001)
+L1.append("Mobile_1")
+L1.append(23000.0)
+L1.append("Samsung")
+print(L1)
+print()
+print("====Removing the Product Information=====")
+L1.remove(1001)
+L1.remove("Mobile_1")
+L1.remove(23000.0)
+L1.remove("Samsung")
+print(L1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+OUTPUT:
+======
+[]
+====Adding the Product Information====
+[1001, 'Mobile_1', 23000.0, 'Samsung']
+
+====Removing the Product Information=====
+[]
+
+End of an application
+
+
+->Indexing and slice operator is applicable:
+============================================
+
+Ex1:
+===
+import time 
+Emp_Info=[1001,"Ajay Kumar",34000.0,"Python developer","HTC"]
+print()
+print("====Employee Information=====")
+print("Eid is:",Emp_Info[0])
+print("Ename is:",Emp_Info[1])
+print("Esal is:",Emp_Info[2])
+print('Designation is:',Emp_Info[3])
+print("Company is:",Emp_Info[4])
+print()
+print("====Using Slice operator=====")
+print(Emp_Info[0:])
+print()
+print(Emp_Info[::-1])
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Where can we use List data type in real world application:
+==========================================================
+We can use list data type in real world application to perform 
+dynamic operations like insert,update,delete etc.
+
+
+
+Predefine functions for List data type:
+======================================
+->append()
+->remove()
+->copy()
+->clear()
+->extend()
+->insert()
+->pop()
+->sort()
+->sorted()
+
+
+copy():
+========
+
+Ex1:
+===
+import time 
+L1=[1001,1002,1003,1004,1005]
+print("Before copy operations:",L1)
+print()
+L2=L1.copy()
+print("After copy operations:",L2)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+->clear():
+=========
+
+Ex1:
+===
+import time 
+L1=[1001,1002,1003,1004,1005]
+print("Before operations:",L1)
+print()
+L2=L1.clear()
+print("After operations:",L2)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+====
+import time 
+L1=[1001,1002,1003,1004,1005]
+print("Before operations:",L1)
+print()
+L1.clear()
+print("After operations:",L1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+->extend():
+==========
+
+Ex1:
+===
+import time 
+L1=[1001,1002,1003]
+L2=[ord('A'),ord('B'),ord('C')]
+print(L1)
+print()
+print(L2)
+print()
+L1.extend(L2)
+print(L1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+L1=[1001,1002,1003]
+L2=[ord('A'),ord('B'),ord('C')]
+print(L1)
+print()
+print(L2)
+print()
+res1=L1+L2
+print(res1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+
+
+
+
+
+
+
+
+
+
+ 

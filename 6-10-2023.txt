@@ -1,0 +1,475 @@
+->Inseration is preserved:
+=========================
+
+Ex1:
+===
+import time 
+T1=eval(input("Enter the Tuple data type:"))
+print(T1)
+print()
+print(type(T1))
+print()
+print("====Reading the each object from tuple====")
+for x1 in T1:
+    print(x1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+OUTPUT:
+=======
+====Reading the each object from tuple====
+101
+102
+103
+104
+105
+
+End of an application
+
+C:\Users\Admin\Desktop>Python test1.py
+Enter the Tuple data type:101,102,103,104,105
+(101, 102, 103, 104, 105)
+
+<class 'tuple'>
+
+====Reading the each object from tuple====
+101
+102
+103
+104
+105
+
+End of an application
+
+
+->Duplicate objects are allowed:
+================================
+
+Ex1:
+===
+import time 
+T1=eval(input("Enter the Tuple data type:"))
+print(T1)
+print()
+print(type(T1))
+print()
+print("====Reading the each object from tuple====")
+for x1 in T1:
+    print(x1)
+print()
+time.sleep(2)
+print('End of an application')
+
+OUTPUT:
+======
+Enter the Tuple data type:(1001,1002,1003,1004,1001,1002,1003)
+(1001, 1002, 1003, 1004, 1001, 1002, 1003)
+
+<class 'tuple'>
+
+====Reading the each object from tuple====
+1001
+1002
+1003
+1004
+1001
+1002
+1003
+
+End of an application
+
+
+Hetrogenious objects are allowed:
+================================
+
+Ex1:
+===
+import time 
+T1=eval(input("Enter the Tuple data type:"))
+print(T1)
+print()
+print(type(T1))
+print()
+print("====Reading the each object from tuple====")
+for x1 in T1:
+    print(x1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+OUTPUT:
+======
+Enter the Tuple data type:(1001,"Rahul Verma","Mobile_1","SR nagar","+91-9090123123")
+(1001, 'Rahul Verma', 'Mobile_1', 'SR nagar', '+91-9090123123')
+
+<class 'tuple'>
+
+====Reading the each object from tuple====
+1001
+Rahul Verma
+Mobile_1
+SR nagar
++91-9090123123
+
+End of an application
+
+
+->Tuple is immutable or state_less object:
+===========================================
+
+
+Ex1:
+===
+import time 
+T1=(1001,1002,1003,1004,1005)
+print('====Before immutable operations====')
+print(T1)
+print()
+print(type(T1))
+print()
+print("====After immutable operations====")
+T1[0]=7001 
+print(T1)
+print()
+print(type(T1))
+print()
+time.sleep(2)
+print('End of an application')
+
+
+OUTPUT:
+======
+====Before immutable operations====
+(1001, 1002, 1003, 1004, 1005)
+
+<class 'tuple'>
+
+====After immutable operations====
+Traceback (most recent call last):
+  File "test1.py", line 9, in <module>
+    T1[0]=7001
+TypeError: 'tuple' object does not support item assignment
+
+
+->Tuple is a not dynamic and not growable:
+==========================================
+
+Note:Tuple data type is not dynamic or not growable because tuple is immutable object
+There are no predefine function for tuple data type.
+
+->max()
+->min()
+->len()
+
+
+Ex1:
+===
+import time 
+T1=(1001,1002,1003,1004,1005)
+print(T1)
+print()
+print(type(T1))
+print()
+print("Max objecr is:",max(T1))
+print()
+print("Min object is:",min(T1))
+print()
+print("Length is :",len(T1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+->Indexing and slice operator is applicable:
+==========================================
+
+Ex1:
+===
+import time 
+T1=(1001,"Mobile_1",23000.0,"Samsung")
+print()
+print('====Product Information=====')
+print("Pid is:",T1[0])
+print("Pname is:",T1[1])
+print("Price is:",T1[2])
+print("Company is:",T1[3])
+print()
+print("====Using slice operator====")
+print(T1[0:])
+print()
+print(T1[::-1])
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Where can we use tuple data type in real world application:
+===========================================================
+Tuple data type is more faster than list data type.In real time application
+we can use tuple data type for readability operations
+
+
+
+Interview_Question:
+===================
+
+
+Throery Part:
+===========
+What are common difference between list and tuple data type
+
+
+Coding_Part:
+=============
+Write a python script to know the common difference between List an 
+d Tuple data type.
+
+
+Set data type:
+=============
+Pyhton supports Set data type.If you want to represent one or more 
+than object or group of objects as single entity then we can go with 
+set data type.In python set data type can de represent as {}.If we are
+defining or declaring {} then PVM  will consider as dict by default
+
+
+Ex1:
+===
+import time 
+S1={} 
+print(S1)
+print()
+print(type(S1))
+print()
+S2=set()
+print(S2)
+print()
+print(type(S2))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+S1={1001} 
+print(S1)
+print()
+print(type(S1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Properties for Set data type:
+=============================
+->Inseration is not preserved
+->Duplicate objects are not allowed
+->Hetrogenious objects are allowed
+->Set is mutable object(state_full object)
+->Set is a dynamic or growable
+->Indexing and slice operator is not applicable
+
+
+->Inseration is not preserved(Input!=Output):
+============================================
+
+Ex1:
+===
+import time 
+S1=eval(input("Enter the Set data type:"))
+print(S1)
+print()
+print(type(S1))
+print()
+for a in S1:
+    print(a)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+OUTPUT:
+======
+Enter the Set data type:{chr(65),chr(66),chr(67),chr(68),chr(69),chr(70)}
+{'C', 'A', 'F', 'E', 'D', 'B'}
+
+<class 'set'>
+
+C
+A
+F
+E
+D
+B
+
+End of an application
+
+->Duplicate objects are not allowed:
+====================================
+
+Ex1:
+===
+import time 
+S1=eval(input("Enter the Set data type:"))
+print(S1)
+print()
+print(type(S1))
+print()
+for a in S1:
+    print(a)
+print()
+time.sleep(2)
+print("End of an application")
+
+OUTPUT:
+======
+Enter the Set data type:{chr(65),chr(66),chr(67),chr(68),chr(69),chr(70),chr(65),chr(66)}
+{'C', 'B', 'D', 'A', 'F', 'E'}
+
+<class 'set'>
+
+C
+B
+D
+A
+F
+E
+
+End of an application
+
+
+->Hetrogenious objects are allowed:
+==================================
+
+Ex1:
+===
+import time 
+S1=eval(input("Enter the Set data type:"))
+print(S1)
+print()
+print(type(S1))
+print()
+for a in S1:
+    print(a)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+OUTPUT:
+======
+Enter the Set data type:{1001,"Arjun Kumar",37000.0,"Django developer","ATS"}
+{'Arjun Kumar', 37000.0, 1001, 'ATS', 'Django developer'}
+
+<class 'set'>
+
+Arjun Kumar
+37000.0
+1001
+ATS
+Django developer
+
+End of an application
+
+
+->Set is Mutable object(State_full object):
+===========================================
+
+Ex1:
+===
+import time 
+Product_Info={1001,"Mobile_1",29000.0,"Samsung","12/12/2023","12/12/2024"}
+print('====Before mutable operations====')
+print(Product_Info)
+print()
+print(type(Product_Info))
+print()
+print("====After mutable operation=====")
+Product_Info[1]="Mobile_2"
+print(Product_Info)
+print()
+print(type(Product_Info))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+OUTPUT:
+======
+====Before mutable operations====
+{29000.0, 1001, 'Samsung', '12/12/2024', '12/12/2023', 'Mobile_1'}
+
+<class 'set'>
+
+====After mutable operation=====
+Traceback (most recent call last):
+  File "test1.py", line 9, in <module>
+    Product_Info[1]="Mobile_2"
+TypeError: 'set' object does not support item assignment
+
+
+->Set is a dynamic or growable:
+===============================
+Set is a dynamic or growable.We can implement using following functions
+
+->add():It is used to add only one object at time
+->remove():It is used to remove one object at time
+
+
+Ex1:
+===
+import time 
+S1=set()
+print(S1)
+print()
+print('====Adding Student Details====')
+S1.add(1001)
+S1.add("Atul Verma")
+S1.add("Python")
+S1.add(75)
+print(S1)
+print()
+print("====Removing the Students Details====")
+S1.remove(1001)
+S1.remove("Atul Verma")
+S1.remove("Python")
+S1.remove(75)
+print(S1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+->Indexing and slcie operator not applicable:
+=============================================
+
+Ex1:
+===
+import time 
+S1={1001,1002,1003}
+print("====Using Indexing====")
+print(S1[0])
+print()
+print("====Using Slicing=====")
+print(S1[0:])
+print()
+time.sleep(2)
+print('End of an application')
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,443 @@
+end:
+====
+It is an attribute which can be return inside print() function.The 
+main objective of end attribute to display the multiline into single
+line.
+
+Ex1:
+===
+import time 
+for x1 in range(10):
+    print(x1)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+OUTPUT:
+=======
+C:\Users\Admin\Desktop>Python test1.py
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+End of an application
+
+
+Ex2:
+===
+import time 
+for x1 in range(10):
+    print(x1,end="")
+print()
+print()
+time.sleep(2)
+print("End of an application")
+
+Ex3:
+===
+import time 
+for x1 in range(10):
+    print(x1,end=" ")
+print()
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex4:
+===
+import time 
+for x1 in range(10):
+    print(x1,end="   ")
+print()
+print()
+time.sleep(2)
+print("End of an application")
+
+
+*
+*
+*
+*
+*
+* * * * * *
+
+Ex5:
+===
+import time 
+for x1 in range(6):
+    print("*")
+for x2 in range(6):
+    print("*",end=" ")
+print()
+print()
+time.sleep(2)
+print("End of an application")
+
+Formatted string:
+================
+While working with Input & Output statements following are the formatted
+string
+
+%d or %i ---->Integer data type
+%f ---->Floating data type
+%s ---->String data type
+%s --->List,tuple,Set,Dict
+
+Note:
+=====
+
+While working with formatted string no need to use ,before variable inside 
+the print statement.
+
+import time 
+X1=100 
+print("Value is:",X1)
+
+
+Ex1:
+===
+import time 
+Eid=int(input('Enter the Eid:'))
+Ename=input("Enter the Ename:")
+Esal=float(input('Enter the Esal:'))
+Design=input("Enter the Designbation:")
+Company=input("Enter the Company:")
+Skills=eval(input("Enter the Skills:"))
+print()
+print("----Employee_Information-----")
+print("Eid is:%d "%Eid)
+print("Ename is:%s "%Ename)
+print("Esal is:%f"%Esal)
+print("Designation is: %s"%Company)
+print("Skills  are :%s "%Skills)
+print("---------------------------")
+print()
+time.sleep(2)
+print('End of an applicaiton')
+
+
+Ex2:
+===
+import time 
+Eid=int(input('Enter the Eid:'))
+Ename=input("Enter the Ename:")
+Esal=float(input('Enter the Esal:'))
+Design=input("Enter the Designbation:")
+Company=input("Enter the Company:")
+Skills=eval(input("Enter the Skills:"))
+print()
+print("----Employee_Information-----")
+print("Eid is:%d ",%Eid)
+print("Ename is:%s "%Ename)
+print("Esal is:%f"%Esal)
+print("Designation is: %s"%Company)
+print("Skills  are :%s "%Skills)
+print("---------------------------")
+print()
+time.sleep(2)
+print('End of an applicaiton')
+
+-----Employee Details------
+My name is Rajesh & My salary is 29000.0 working at Engro Tech
+--------------------------------------------------------------
+
+Ex3:
+===
+import time 
+Emp_Name=input("Enter the Emp_Name:")
+Emp_Salary=float(input("Enter the Emp_salary:"))
+print()
+print('====Employee_Detials=====')
+print("My name is %s & My salary is %f"%(Emp_Name,Emp_Salary),"Working at Engro Tech")
+print("=====================================================")
+print()
+time.sleep(2)
+print("End of an application")
+
+Replacement operator({}):
+=======================
+Replacement operator can be repesent as {} which can be return inside thw
+print() statement.The main objective of replacement operators is replace the content 
+as per the application reqn.
+
+print(val1,val2,val3.format())
+
+Name of the language is:Python
+Date of release is:16/7/1989
+
+
+Ex1:
+===
+import time 
+Name=input("Enter the Language:")
+Day=int(input("Enter the Day:"))
+Month=int(input("Enter the Month:"))
+Year=int(input("Enter the Year:"))
+print()
+print('======Python Language Details=====')
+print("Name of the language is:",Name)
+print("Date of release is:{}/{}/{}".format(Day,Month,Year))
+print('========================================')
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+===
+import time 
+Name=input("Enter the Language:")
+Day=int(input("Enter the Day:"))
+Month=int(input("Enter the Month:"))
+Year=int(input("Enter the Year:"))
+print()
+print('======Python Language Details=====')
+print("Name of the language is:",Name)
+print("Date of release is:{0}/{1}/{2}".format(Day,Month,Year))
+print('========================================')
+print()
+time.sleep(2)
+print("End of an application")
+
+Ex3:
+===
+import time 
+Name=input("Enter the Language:")
+Day=int(input("Enter the Day:"))
+Month=int(input("Enter the Month:"))
+Year=int(input("Enter the Year:"))
+print()
+print('======Python Language Details=====')
+print("Name of the language is:",Name)
+print("Date of release  in USA format is:{1}/{0}/{2}".format(Day,Month,Year))
+print('========================================')
+print()
+time.sleep(2)
+print("End of an application")
+
+Ex4:
+===
+import time 
+Name=input("Enter the Language:")
+Day=int(input("Enter the Day:"))
+Month=int(input("Enter the Month:"))
+Year=int(input("Enter the Year:"))
+print()
+print('======Python Language Details=====')
+print("Name of the language is:",Name)
+print("Date of release  in UK format is:{2}/{1}/{0}".format(Day,Month,Year))
+print('========================================')
+print()
+time.sleep(2)
+print("End of an application")
+
+Ex5:
+====
+import time 
+Name=input("Enter the Language:")
+Day=int(input("Enter the Day:"))
+Month=int(input("Enter the Month:"))
+Year=int(input("Enter the Year:"))
+print()
+print('======Python Language Details=====')
+print("Name of the language is:",Name)
+print("Date of release  in UK format is:{X1}/{X2}/{X3}".format(X1=Day,X2=Month,X3=Year))
+print('========================================')
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex6:
+====
+import time 
+username=input('Enter the username:')
+P1=input("Enter the password:")
+P2=input("Enter the Confirm_Password:")
+print()
+print("====User_Login_Details====")
+print(f"User_Name is:{username}")
+print()
+print(f"Password is:{P1}")
+print()
+print(f"Confirm_Password is:{P2}")
+print('===================================')
+print()
+time.sleep(2)
+print("End of an applicaiton")
+
+
+Comprehension in python:
+========================
+Python supports comprehension.Comprehension can be represent as
+if we are using one or more than one expression with one or more than one
+condition then it is said to comprehension.
+
+List comprehension
+Tuple comprehension
+Set Comprehension
+Dict Comprehension
+
+List comprehension:
+===================
+
+Ex1:
+===
+import time 
+L1=[X1*X1 for X1 in range(1,15)]
+print(L1)
+print()
+print(type(L1))
+print()
+for s1 in L1:
+    print("Square of list objects are:",s1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex2:
+===
+import time 
+L1=[X1*X1 for X1 in range(1,15) if X1%2==0]
+print(L1)
+print()
+print(type(L1))
+print()
+for s1 in L1:
+    print("Square of list objects are:",s1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+Ex3:
+===
+import time 
+L1=[X1*X1+1000 for X1 in range(1,15)]
+print(L1)
+print()
+print(type(L1))
+print()
+for s1 in L1:
+    print("Result_set is:",s1)
+print()
+time.sleep(2)
+print('End of an application')
+
+
+->Tuple Comprehension:
+======================
+
+Ex1:
+===
+import time 
+T1=(X1+100 for X1 in range(1,17))
+print(T1)
+print()
+print(type(T1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+====
+import time 
+T1=(X1+100 for X1 in range(1,17))
+print(*T1)
+print()
+print(type(T1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex3:
+====
+import time 
+T1=(X1+100 for X1 in range(1,17))
+for x1 in T1:
+    print(x1)
+print()
+print(type(T1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex4:
+===
+import time 
+T1=(X1+100 for X1 in range(1,17) if X1%2==1)
+for x1 in T1:
+    print(x1)
+print()
+print(type(T1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Set Comprehension:
+=================
+
+Ex1:
+====
+import time 
+S1={y1*y1 for y1 in range(1,21)}
+print(S1)
+print()
+print(type(S1))
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Dict comprehension:
+===================
+
+Ex1:
+===
+import time 
+D1={number:number*number for number in range(5,25)}
+print(D1)
+print()
+print(type(D1))
+print()
+print("Number","---","Square of Number")
+for x1,x2 in D1.items():
+    print(x1,"-----",x2)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+Ex2:
+====
+import time 
+D1={number:number*number for number in range(5,25) if number%2==0}
+print(D1)
+print()
+print(type(D1))
+print()
+print("Number","---","Square of Number")
+for x1,x2 in D1.items():
+    print(x1,"-----",x2)
+print()
+time.sleep(2)
+print("End of an application")
+
+
+
+
+
